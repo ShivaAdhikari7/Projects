@@ -8,6 +8,7 @@ p,
 li {
   font-family: sans-serif;
 }
+
 h1 {
   font-size: 29px;
   text-transform: uppercase;
@@ -29,6 +30,17 @@ p {
   font-size: 22px;
   line-height: 1.5;
 }
+
 #author {
   font-style: italic;
+  font-size: 16px;
+}
+#copyright {
+  font-size: 16px;
+}
+.related-author {
+  font-weight: 700;
+}
+.related {
+  list-style: none;
 }
