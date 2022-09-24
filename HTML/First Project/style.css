@@ -8,6 +8,15 @@ p,
 li {
   font-family: sans-serif;
 }
+h1,
+h2,
+h3 {
+  color: #1098ab;
+}
+p,
+li {
+  color: #444;
+}
 
 h1 {
   font-size: 29px;
@@ -35,6 +44,9 @@ p {
   font-style: italic;
   font-size: 16px;
 }
+.main-header {
+  background-color: #f7f7f7;
+}
 #copyright {
   font-size: 16px;
 }
@@ -43,4 +55,28 @@ p {
 }
 .related {
   list-style: none;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 10px solid #1098ab;
+  border-bottom: 10px solid #1098ab;
+}
+a {
+  transition: all 0.5s;
+}
+a:link {
+  color: #1098ab;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ab;
+}
+a:hover {
+  color: orangered;
+  text-decoration: underline orange;
+  font-size: 22px;
+}
+a:active {
+  color: white;
+  background-color: black;
 }
