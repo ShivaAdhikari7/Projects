@@ -1,17 +1,16 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-li {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: sans-serif;
 }
 h1,
 h2,
 h3 {
   color: #1098ab;
+  margin-bottom: 10px;
 }
 p,
 li {
@@ -38,14 +37,38 @@ li {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 10px;
 }
-
-#author {
-  font-style: italic;
-  font-size: 16px;
+ul,
+ol {
+  margin-left: 30px;
+}
+ul li {
+  margin-bottom: 5px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+header {
+  margin-bottom: 20px;
 }
 .main-header {
   background-color: #f7f7f7;
+  padding: 50px 20px;
+}
+.header-title {
+  margin-bottom: 10px;
+}
+article {
+  padding: 20px 10px;
+}
+#author {
+  font-style: italic;
+  font-size: 16px;
 }
 #copyright {
   font-size: 16px;
@@ -79,4 +102,11 @@ a:hover {
 a:active {
   color: white;
   background-color: black;
+}
+.important-list {
+  margin-bottom: 20px;
+}
+aside {
+  padding: 50px 0;
+  margin-bottom: 10px;
 }
