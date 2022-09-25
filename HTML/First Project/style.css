@@ -5,6 +5,7 @@
 
 body {
   font-family: sans-serif;
+  position: relative;
 }
 h1,
 h2,
@@ -65,6 +66,27 @@ header {
 }
 article {
   padding: 20px 10px;
+}
+.like {
+  position: absolute;
+  bottom: 60px;
+  right: 40px;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+h2 {
+  position: relative;
+}
+h2::before {
+  content: "Top";
+  background-color: #ffff00;
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 5px;
 }
 #author {
   font-style: italic;
