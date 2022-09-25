@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -31,6 +32,7 @@ h3 {
 h4 {
   font-size: 25px;
   text-align: center;
+  margin-bottom: 20px;
 }
 li {
   font-size: 20px;
@@ -51,7 +53,7 @@ li:last-child {
   margin-bottom: 0;
 }
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 header {
@@ -63,9 +65,26 @@ header {
 }
 .header-title {
   margin-bottom: 10px;
+  float: left;
 }
+nav {
+  float: right;
+}
+.author-image {
+  float: left;
+}
+.author {
+  margin-bottom: 40px;
+  padding-left: 20px;
+  float: left;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
 article {
   padding: 20px 10px;
+  width: 825px;
+  float: left;
 }
 .like {
   position: absolute;
@@ -95,40 +114,46 @@ h2::before {
 #copyright {
   font-size: 16px;
 }
+.related-book {
+  font-size: 15px;
+}
 .related-author {
   font-weight: 700;
+  font-size: 16px;
 }
 .related {
   list-style: none;
 }
+
 aside {
+  width: 300px;
   background-color: #f7f7f7;
   border-top: 10px solid #1098ab;
   border-bottom: 10px solid #1098ab;
+  padding: 50px 20px;
+  margin-bottom: 10px;
+  float: right;
 }
+
 a {
   transition: all 0.5s;
 }
-a:link {
-  color: #1098ab;
-  text-decoration: none;
-}
+a:link,
 a:visited {
   color: #1098ab;
+  text-decoration: none;
+  margin-left: 10px;
 }
-a:hover {
+
+a:hover,
+a:active {
   color: orangered;
   text-decoration: underline orange;
-  font-size: 22px;
 }
-a:active {
-  color: white;
-  background-color: black;
-}
+
 .important-list {
   margin-bottom: 20px;
 }
-aside {
-  padding: 50px 0;
-  margin-bottom: 10px;
+footer {
+  clear: both;
 }
