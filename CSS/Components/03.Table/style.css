@@ -9,3 +9,32 @@ Font Size System(px):
 Primary color: #087f5b;
 Grey color: #343a40;
 */
+body {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 800px;
+}
+th,
+td {
+  padding: 20px 30px;
+}
+thead th {
+  font-size: 18px;
+  background-color: #087f5b;
+  width: 25%;
+}
+tbody tr {
+  text-align: center;
+}
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+tbody tr:nth-child(even) {
+  background-color: #dee2e6;
+}
