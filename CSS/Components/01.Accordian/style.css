@@ -1,0 +1,72 @@
+/*  
+Spacing System(px):
+2/4/8/12/16/24/32/48/64/80/96/128.........
+
+Font Size System(px):
+10/12/14/16/18/20/24/30/36/44/52/62/74/86/98....
+
+
+Primary color: #087f5b;
+Grey color: #343a40;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+.accordian {
+  width: 40%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.item {
+  padding: 24px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.item-number {
+  font-size: 20px;
+  font-weight: 600;
+
+  color: #868e96;
+}
+.item-title {
+  font-size: 20px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  color: #087f5b;
+}
+.item-details {
+  grid-column: 2/3;
+  display: none;
+}
+.item-description {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+.item-detail {
+  margin-left: 30px;
+  color: #868e96;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.open .item-details {
+  display: block;
+}
+.open .item-number {
+  color: #087f5b;
+}
