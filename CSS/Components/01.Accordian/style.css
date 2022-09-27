@@ -67,6 +67,7 @@ body {
 .open .item-details {
   display: block;
 }
-.open .item-number {
+.open .item-number,
+.open .item-title {
   color: #087f5b;
 }
