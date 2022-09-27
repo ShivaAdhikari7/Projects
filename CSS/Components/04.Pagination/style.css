@@ -1,0 +1,73 @@
+/*  
+Spacing System(px):
+2/4/8/12/16/24/32/48/64/80/96/128.........
+
+Font Size System(px):
+10/12/14/16/18/20/24/30/36/44/52/62/74/86/98....
+
+
+        
+
+Primary color: #087f5b;
+Grey color: #343a40;
+*/
+body {
+  height: 50vh;
+
+  font-family: sans-serif;
+  line-height: 1;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.pagination {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.btn {
+  height: 48px;
+  width: 48px;
+  border: 2px solid #087f5b;
+  background: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+/* .btn:hover {
+  background-color: #087f5b;
+  color: #fff;
+} */
+
+.page-link {
+  font-size: 18px;
+  color: #343a40;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.page-link:hover {
+  background-color: #087f5b;
+  color: #fff;
+}
+.current-page-link {
+  background-color: #087f5b;
+  color: #fff;
+}
+.dots {
+  color: #868e96;
+}
