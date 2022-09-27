@@ -180,3 +180,22 @@ aside {
 h4 {
   margin-bottom: 20px;
 }
+.container {
+  display: grid;
+}
+/* .row {
+  display: flex;
+} */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 75px;
+}
+header {
+  grid-column: 1/-1;
+}
+
+aside {
+  align-self: start;
+}
