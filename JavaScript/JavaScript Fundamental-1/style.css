@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  color: #444;
+  background: linear-gradient(rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5));
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 8rem;
+}
