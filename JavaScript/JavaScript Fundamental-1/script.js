@@ -29,9 +29,9 @@ console.log(`John BMI is ${johnBMI}`);
 let markHigherBMI;
 
 if (markBMI > johnBMI) {
-  console.log("MarkBMI is higher");
+  console.log(`MarkBMI is higher(${markBMI})`);
 } else {
-  console.log("John BMI is higher");
+  console.log(`John BMI is higher(${johnBMI})`);
 }
 
 let fullName = "Shiva Adhikari";
