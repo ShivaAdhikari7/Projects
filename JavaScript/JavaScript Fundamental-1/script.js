@@ -68,10 +68,21 @@ const koalaAvg = (109 + 95 + 106) / 3;
 //   console.log("Match is drawn");
 // }
 
-if (dolphinAvg > koalaAvg && dolphinAvg >= 100) {
-  console.log(`Dolphin wins with the average of ${dolphinAvg}`);
-} else if (koalaAvg > dolphinAvg && koalaAvg >= 100) {
-  console.log(`Koala wins with the average of ${koalaAvg}`);
-} else if (koalaAvg === dolphinAvg && dolphinAvg > 100 && koalaAvg > 100) {
-  console.log("Match is drawn");
-}
+// if (dolphinAvg > koalaAvg && dolphinAvg >= 100) {
+//   console.log(`Dolphin wins with the average of ${dolphinAvg}`);
+// } else if (koalaAvg > dolphinAvg && koalaAvg >= 100) {
+//   console.log(`Koala wins with the average of ${koalaAvg}`);
+// } else if (koalaAvg === dolphinAvg && dolphinAvg > 100 && koalaAvg > 100) {
+//   console.log("Match is drawn");
+// }
+
+// Coding challenge: 4
+let bill = 430;
+
+let tip = bill > 50 && bill < 300 ? (15 / 100) * bill : (20 / 100) * bill;
+
+console.log(
+  `The bill was ${bill}, the tip was ${tip} and the total value is ${
+    bill + tip
+  }`
+);
