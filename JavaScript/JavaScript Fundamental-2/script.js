@@ -136,35 +136,134 @@
 // Objects Functions:
 /**************************************************/
 
-let person1 = {
-  firstName: "Shiva",
-  lastName: "Adhikari",
-  birthYear: "1998",
-  location: "Kathmandu",
-  job: "Programmer",
-  haslicense: false,
+// let person1 = {
+//   firstName: "Shiva",
+//   lastName: "Adhikari",
+//   birthYear: "1998",
+//   location: "Kathmandu",
+//   job: "Programmer",
+//   haslicense: false,
 
-  // calcAge: function () {
-  //   return 2022 - this.birthYear;
-  // },
+// calcAge: function () {
+//   return 2022 - this.birthYear;
+// },
 
-  calcAge: function () {
-    console.log(this);
-    this.age = 2022 - this.birthYear;
-    return this.age;
-  },
-};
-// person1.age = 24;
+//   calcAge: function () {
+//     console.log(this);
+//     this.age = 2022 - this.birthYear;
+//     return this.age;
+//   },
+// };
+// // person1.age = 24;
+// // console.log(person1.age);
+
+// person1.calcAge();
 // console.log(person1.age);
+// console.log(person1);
 
-person1.calcAge();
-console.log(person1.age);
-console.log(person1);
+// // Shiva is a 24-year old programmer, and he has a driving license.
 
-// Shiva is a 24-year old programmer, and he has a driving license.
+// console.log(
+//   `${person1.firstName} is a ${person1.age} old ${person1.job} and he ${
+//     person1.haslicense ? "has a " : "has not a"
+//   } driving license`
+// );
 
-console.log(
-  `${person1.firstName} is a ${person1.age} old ${person1.job} and he ${
-    person1.haslicense ? "has a " : "has not a"
-  } driving license`
-);
+/**************************************************/
+// Coding Challenge 3:
+/**************************************************/
+
+// const Mark = {
+//   fullName: "Mark Miller",
+//   mass: 78,
+//   height: 1.69,
+//   calcBMI: function () {
+//     return this.mass / this.height ** 2;
+//   },
+// };
+
+// const John = {
+//   fullName: "John Smith",
+//   mass: 92,
+//   height: 1.95,
+//   calcBMI: function () {
+//     return this.mass / this.height ** 2;
+//   },
+// };
+
+// console.log(
+//   `${
+//     John.calcBMI() > Mark.calcBMI()
+//       ? `John's BMI (${John.calcBMI()}) is higher than Mark's (${Mark.calcBMI()})`
+//       : `Mark's BMI (${Mark.calcBMI()}) is higher than John's (${John.calcBMI()})`
+//   }`
+// );
+
+/**************************************************/
+// Iteration: For Loops
+/**************************************************/
+
+const years = [1990, 1992, 1932, 45];
+
+const ages = [];
+
+// Looping forwards:
+// for (let i = 0; i < years.length; i++) {
+//   ages.push(typeof years[i]);
+//   if (typeof years[i] !== "string") break;
+//   console.log(`The given values are: ${years[i]}`);
+// }
+
+// console.log(ages);
+
+// Looping backwards:
+
+// for (let i = years.length - 1; i >= 0; i--) {
+//   {
+//     console.log(`${years[i]}`);
+//   }
+// }
+
+/**************************************************/
+// Iteration: While Loops:
+/**************************************************/
+
+// let dice = Math.trunc(Math.random() * 6) + 1;
+
+// while (dice !== 6) {
+//   console.log(`You rolled the ${dice}`);
+//   dice = Math.trunc(Math.random() * 6) + 1;
+
+//   if (dice === 6) {
+//     console.log(`You rolled ${dice} so the game is about to end hai ta.`);
+//   }
+// }
+
+/**************************************************/
+// Coding Challenge 4:
+/**************************************************/
+
+let bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+let tips = [];
+let total = [];
+
+const calcTip = (inputVal) =>
+  inputVal >= 50 && inputVal <= 300 ? 0.15 * inputVal : 0.2 * inputVal;
+
+for (let i = 0; i < bills.length; i++) {
+  tips.push(calcTip(bills[i]));
+  total.push(calcTip(bills[i]) + bills[i]);
+}
+console.log(tips);
+console.log(total);
+
+const calcAverage = (arr) => {
+  let sum = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+  }
+  return sum / arr.length;
+};
+
+console.log(`The average of the array is ${calcAverage(bills)}`);
