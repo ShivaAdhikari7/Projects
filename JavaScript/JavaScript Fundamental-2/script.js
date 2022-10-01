@@ -243,27 +243,87 @@ const ages = [];
 // Coding Challenge 4:
 /**************************************************/
 
-let bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
-let tips = [];
-let total = [];
+// let bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+// let tips = [];
+// let total = [];
 
-const calcTip = (inputVal) =>
-  inputVal >= 50 && inputVal <= 300 ? 0.15 * inputVal : 0.2 * inputVal;
+// const calcTip = (inputVal) =>
+//   inputVal >= 50 && inputVal <= 300 ? 0.15 * inputVal : 0.2 * inputVal;
 
-for (let i = 0; i < bills.length; i++) {
-  tips.push(calcTip(bills[i]));
-  total.push(calcTip(bills[i]) + bills[i]);
-}
-console.log(tips);
-console.log(total);
+// for (let i = 0; i < bills.length; i++) {
+//   tips.push(calcTip(bills[i]));
+//   total.push(calcTip(bills[i]) + bills[i]);
+// }
+// console.log(tips);
+// console.log(total);
 
-const calcAverage = (arr) => {
-  let sum = 0;
+// const calcAverage = (arr) => {
+//   let sum = 0;
 
-  for (let i = 0; i < arr.length; i++) {
-    sum = sum + arr[i];
+//   for (let i = 0; i < arr.length; i++) {
+//     sum = sum + arr[i];
+//   }
+//   return sum / arr.length;
+// };
+
+// console.log(`The average of the array is ${calcAverage(bills)}`);
+
+// Finding maximum in an array:
+// let arr = [1, 13, 5, 29, 6, 3];
+// let max = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > max) max = arr[i];
+// }
+
+// console.log(max);
+
+// Finding minimum in an array:
+// let array = [2, 3, 5, 29, 6, 3];
+// let array = [200, 500, 100, 300, 99];
+// let min = array[0];
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i] < min) {
+//     min = array[i];
+//   }
+// }
+// console.log(min);
+
+// Finding the amplitude:
+// let tempratures = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
+// let anothertemp = [2, 5, 10, 25, 30];
+// const calcAmplitude = (arr) => {
+//   let max = arr[0];
+//   let min = arr[0];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] !== "number") continue;
+//     if (arr[i] > max) max = arr[i];
+//     if (arr[i] < min) min = arr[i];
+//   }
+//   return max - min;
+// };
+// console.log(`${calcAmplitude(tempratures)} is the amplitude`);
+
+// Swap two numbers without using third variable:
+let x = 5;
+let y = 6;
+x = x + y;
+y = x - y;
+x = x - y;
+console.log(x, y);
+
+// Find the prime numbers from 1 to 100.
+
+const findPrimeNumber = (num) => {
+  let isPrime = true;
+  for (let i = 2; i * i < num; i++) {
+    if (num % i == 0) {
+      isPrime = 0;
+    }
   }
-  return sum / arr.length;
+  if (isPrime) {
+    console.log(num);
+  }
 };
-
-console.log(`The average of the array is ${calcAverage(bills)}`);
+for (let i = 2; i <= 100; i++) {
+  findPrimeNumber(i);
+}
