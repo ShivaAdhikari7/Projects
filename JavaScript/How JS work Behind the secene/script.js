@@ -29,3 +29,14 @@
 // girl2.calcAge = girl.calcAge;
 
 // girl2.calcAge();
+
+// Arguments: We don't have arguments in arrow function but do have in normal function:
+
+let a = function (a, b) {
+  console.log(arguments);
+  for (let key in arguments) {
+    console.log(key);
+  }
+  return a + b;
+};
+a(3, 4, 5, 6);
