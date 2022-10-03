@@ -38,64 +38,65 @@
 // const [main, secondary] = resturant.order(0, 1);
 // console.log(main, secondary);
 
-const resturant = {
-  resturantName: "Classic Italiano",
-  location: "Sansfransico",
-  categories: ["Iitalian", "Indian", "Nepali"],
-  starterMenu: ["Garlic", "Bread"],
-  mainMenu: ["Pizza", "pasta", "Risotto"],
+// const resturant = {
+//   resturantName: "Classic Italiano",
+//   location: "Sansfransico",
+//   categories: ["Iitalian", "Indian", "Nepali"],
+//   starterMenu: ["Garlic", "Bread"],
+//   mainMenu: ["Pizza", "pasta", "Risotto"],
 
-  openingHours: {
-    thursday: {
-      open: 12,
-      close: 10,
-    },
-    friday: {
-      open: 9,
-      close: 11,
-    },
-    saturday: {
-      open: 10,
-      close: 10,
-    },
-  },
-  order: function (mainIndex, secondaryIndex) {
-    return [this.mainMenu[mainIndex], this.starterMenu[secondaryIndex]];
-  },
+//   openingHours: {
+//     thursday: {
+//       open: 12,
+//       close: 10,
+//     },
+//     friday: {
+//       open: 9,
+//       close: 11,
+//     },
+//     saturday: {
+//       open: 10,
+//       close: 10,
+//     },
+//   },
+//   order: function (mainIndex, secondaryIndex) {
+//     return [this.mainMenu[mainIndex], this.starterMenu[secondaryIndex]];
+//   },
 
-  orderDelievery: function (
-    // { mainIndex, secondaryIndex, address, time } = this.orderDelievery  athawa yo garda in hunxa
-    // { mainIndex, secondaryIndex, address, time }
-    {
-      mainIndex = this.orderDelievery,
-      secondaryIndex = this.orderDelievery,
-      time = this.orderDelievery,
-      address = this.orderDelievery,
-    }
-  ) {
-    const [mainfood, starterfood] = this.order(mainIndex, secondaryIndex);
-    console.log(
-      `Your order ${mainfood} and ${starterfood} will be recieved at the ${address} at ${time}`
-    );
-  },
-  orderedRecepies: function () {
-    for (let i = 0; i < arguments.length; i++) {
-      console.log(`Your recipes are: ${arguments[i]}`);
-    }
-  },
+//   orderDelievery: function (
+//     // { mainIndex, secondaryIndex, address, time } = this.orderDelievery  athawa yo garda in hunxa
+//     // { mainIndex, secondaryIndex, address, time }
+//     {
+//       mainIndex = this.orderDelievery,
+//       secondaryIndex = this.orderDelievery,
+//       time = this.orderDelievery,
+//       address = this.orderDelievery,
+//     }
+//   ) {
+//     const [mainfood, starterfood] = this.order(mainIndex, secondaryIndex);
+//     console.log(
+//       `Your order ${mainfood} and ${starterfood} will be recieved at the ${address} at ${time}`
+//     );
+//   },
+//   orderedRecepies: function () {
+//     for (let i = 0; i < arguments.length; i++) {
+//       console.log(`Your recipes are: ${arguments[i]}`);
+//     }
+//   },
 
-  orderPizza: function (mainIngredients, ...otherIngrediants) {
-    console.log(mainIngredients, otherIngrediants);
-  },
-};
-resturant.order();
-// 6.Practical Examples in object destructing:
-resturant.orderDelievery({
-  mainIndex: 0,
-  secondaryIndex: 1,
-  address: "Kupandole",
-  time: "20:08",
-});
+//   orderPizza: function (mainIngredients, ...otherIngrediants) {
+//     console.log(mainIngredients, otherIngrediants);
+//   },
+// };
+// console.log(resturant.openingHours["friday"]);
+// resturant.order();
+// // 6.Practical Examples in object destructing:
+// resturant.orderDelievery({
+//   mainIndex: 0,
+//   secondaryIndex: 1,
+//   address: "Kupandole",
+//   time: "20:08",
+// });
 
 // console.log(resturant.openingHours.friday.close);
 
@@ -187,45 +188,162 @@ resturant.orderDelievery({
 // Rest Operator:
 /************************************/
 
-let arr = [4, 5, 6];
+// let arr = [4, 5, 6];
 
-// It is spread operator becuase it is in the right side of the assignment operator.
-let array = [1, 2, 3, ...arr];
+// // It is spread operator becuase it is in the right side of the assignment operator.
+// let array = [1, 2, 3, ...arr];
 
-// It is the rest operator because it is in the left side of the assignment operator.
-const [a, b, ...otherArray] = array;
-console.log(a, b, otherArray);
+// // It is the rest operator because it is in the left side of the assignment operator.
+// const [a, b, ...otherArray] = array;
+// console.log(a, b, otherArray);
 
-// Rest and Spread operator at the same time:
-const [alu, gopi, ...otherSabji] = [
-  ...resturant.mainMenu,
-  ...resturant.starterMenu,
-];
-console.log(alu, gopi, otherSabji);
+// // Rest and Spread operator at the same time:
+// const [alu, gopi, ...otherSabji] = [
+//   ...resturant.mainMenu,
+//   ...resturant.starterMenu,
+// ];
+// console.log(alu, gopi, otherSabji);
 
-console.log(resturant.openingHours);
+// console.log(resturant.openingHours);
 
-// const { openingHours } = resturant;
+// // const { openingHours } = resturant;
+// // const {
+// //   friday: { open, close },
+// // } = openingHours;
+
+// // Rest operator in objects:
+
 // const {
-//   friday: { open, close },
-// } = openingHours;
+//   openingHours: { saturday, ...weekdays },
+// } = resturant;
+// console.log(saturday, weekdays);
 
-// Rest operator in objects:
+// let addNumbers = function (...numbers) {
+//   console.log(numbers);
+//   let sum = 0;
+//   for (let i = 0; i < numbers.length; i++) sum += numbers[i];
+//   console.log(sum);
+// };
 
-const {
-  openingHours: { saturday, ...weekdays },
-} = resturant;
-console.log(saturday, weekdays);
+// let x = [3, 56, 78, 9, 5, 4, 6, 7];
+// addNumbers(...x);
 
-let addNumbers = function (...numbers) {
-  console.log(numbers);
-  let sum = 0;
-  for (let i = 0; i < numbers.length; i++) sum += numbers[i];
-  console.log(sum);
+// // Real life example:
+// resturant.orderPizza("mushrooms", "alu", "egg", "daal");
+
+// Iteration using for of loop:
+
+let openingHours = {
+  thursday: {
+    open: 12,
+    close: 10,
+  },
+  friday: {
+    open: 9,
+    close: 11,
+  },
+  saturday: {
+    open: 10,
+    close: 10,
+  },
 };
 
-let x = [3, 56, 78, 9, 5, 4, 6, 7];
-addNumbers(...x);
+const resturant = {
+  resturantName: "Classic Italiano",
+  location: "Sansfransico",
+  categories: ["Iitalian", "Indian", "Nepali"],
+  starterMenu: ["Garlic", "Bread"],
+  mainMenu: ["Pizza", "pasta", "Risotto"],
 
-// Real life example:
-resturant.orderPizza("mushrooms", "alu", "egg", "daal");
+  openingHours,
+  order(mainIndex, secondaryIndex) {
+    return [this.mainMenu[mainIndex], this.starterMenu[secondaryIndex]];
+  },
+
+  orderDelievery: function (
+    // { mainIndex, secondaryIndex, address, time } = this.orderDelievery  athawa yo garda in hunxa
+    // { mainIndex, secondaryIndex, address, time }
+    {
+      mainIndex = this.orderDelievery,
+      secondaryIndex = this.orderDelievery,
+      time = this.orderDelievery,
+      address = this.orderDelievery,
+    }
+  ) {
+    const [mainfood, starterfood] = this.order(mainIndex, secondaryIndex);
+    console.log(
+      `Your order ${mainfood} and ${starterfood} will be recieved at the ${address} at ${time}`
+    );
+  },
+  orderedRecepies: function () {
+    for (let i = 0; i < arguments.length; i++) {
+      console.log(`Your recipes are: ${arguments[i]}`);
+    }
+  },
+
+  orderPizza(mainIngredients, ...otherIngrediants) {
+    console.log(mainIngredients, otherIngrediants);
+  },
+};
+
+// Optional Chaining:
+let days = [
+  "sunday",
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+];
+
+// for (const day of days) {
+//   // if (resturant.openingHours[day]?.open) {
+//   //   console.log(
+//   //     `On  ${day} we are open at ${resturant.openingHours[day].open} `
+//   //   );
+//   // } else {
+//   //   console.log(`We are closed on ${day}`);
+//   // }
+
+//   let open = resturant.openingHours[day]?.open ?? "closed";
+
+//   console.log(`On ${day} we are open at ${open}`);
+// }
+
+// // Optional chaining in method:
+// console.log(resturant.order?.(0, 1) ?? "Method doesn't exist");
+
+// Iterating the objects:
+
+// Iterating the object Keys:
+let keys = Object.keys(openingHours);
+
+let openStr = ` We are open for ${keys.length} days: `;
+
+for (let key of keys) {
+  openStr = openStr + `${key},`;
+}
+console.log(openStr);
+
+// Iterating the object Values:
+
+let values = Object.values(openingHours);
+
+const { open, close } = Object.values(openingHours)[0];
+console.log(open, close);
+
+for (let { open, close } of Object.values(openingHours)) {
+  console.log(open, close);
+}
+
+// Iterating the whole object:
+// for (let [key, { open, close }] of Object.entries(openingHours)) {
+//   console.log(key, open, close);
+// }
+
+// let veryNewMenu = [...resturant.mainMenu, ...resturant.starterMenu];
+// for (const [i, el] of veryNewMenu.entries()) {
+
+//   console.log(`${i + 1}: ${el}`);
+// }
