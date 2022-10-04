@@ -100,44 +100,76 @@ const game = {
 };
 
 // 1.
-const [player1, player2] = game.players;
+// const [player1, player2] = game.players;
 
 // console.log(player1, player2);
 
 // 2.
-const [gk, ...fieldPlayers] = player1;
-// console.log(gk, fieldPlayers);
-// 3.
+// const [gk, ...fieldPlayers] = player1;
+// // console.log(gk, fieldPlayers);
+// // 3.
 
-const allplayers = [...player1, ...player2];
-// console.log(allplayers);
+// const allplayers = [...player1, ...player2];
+// // console.log(allplayers);
 
-// 4.
+// // 4.
 
-const player1Final = [...player1, "Thiago", "Coutinho", "Perisic"];
-// console.log(player1Final);
+// const player1Final = [...player1, "Thiago", "Coutinho", "Perisic"];
+// // console.log(player1Final);
 
-// 5.
+// // 5.
 
-const { team1, x: draw, team2 } = game.odds;
-// console.log(team1, draw, team2);
+// const { team1, x: draw, team2 } = game.odds;
+// // console.log(team1, draw, team2);
 
 // 6.
 
-let playersScored = ["Davies", "Muller", "Lewandowski", "Kimmich"];
+// let playersScored = ["Davies", "Muller", "Lewandowski", "Kimmich"];
 
-const printGoals = function (...playersScored) {
-  for (let i = 0; i < playersScored.length; i++) {
-    console.log(playersScored[i]);
-  }
-  console.log(`Score: ${game.score}`);
-};
-printGoals(...playersScored);
+// const printGoals = function (...playersScored) {
+//   for (let i = 0; i < playersScored.length; i++) {
+//     console.log(playersScored[i]);
+//   }
+//   console.log(`Score: ${game.score}`);
+// };
+// printGoals(...playersScored);
 
-// 7.
-const {
-  odds: { team1: team1Odds, x: y, team2: team2Odds },
-} = game;
+// // 7.
+// const {
+//   odds: { team1: team1Odds, x: y, team2: team2Odds },
+// } = game;
 
-console.log(team1Odds < team2Odds && `Team 1 is more likely to win`);
-console.log(team1Odds > team2Odds && `Team 2 is more likely to win`);
+// console.log(team1Odds < team2Odds && `Team 1 is more likely to win`);
+// console.log(team1Odds > team2Odds && `Team 2 is more likely to win`);
+
+// Coding Challenge 2:
+// 1.
+
+// let key = game.scored;
+// console.log(key);
+
+// let i = 0;
+// for (const item of game.scored) {
+//   i++;
+//   console.log(`Goal ${i}: ${item}`);
+// }
+
+// 2.
+
+let sum = 0;
+
+for (let key of Object.values(game.odds)) {
+  sum += key;
+}
+console.log(`Average is ${sum / 3}`);
+
+// 3.
+
+for (const [team, point] of Object.entries(game.odds)) {
+  let teamStr = team === "x" ? "draw" : `victory ${game[team]}`;
+
+  console.log(`Odd of ${teamStr}: ${point}`);
+}
+
+// 4.
+let soccers = {};
