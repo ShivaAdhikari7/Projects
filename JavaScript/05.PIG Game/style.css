@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  position: relative;
+  font-family: sans-serif;
+  font-weight: 400;
+  background: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  height: 100vh;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  width: 100rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  height: 60rem;
+  backdrop-filter: blur(200px);
+  filter: blur();
+  border-radius: 9px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+.player {
+  flex: 50%;
+  padding: 9.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.75s;
+}
+.name {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.score {
+  font-size: 8rem;
+  font-weight: 300;
+  color: #c73657;
+  margin-bottom: auto;
+}
+.player--active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.player--active .name {
+  font-weight: 700;
+}
+.player--active .score {
+  font-weight: 400;
+}
+.player--active .current {
+  opacity: 1;
+}
+.current {
+  background-color: #c73657;
+  opacity: 0.8;
+  border-radius: 9px;
+  color: #fff;
+  height: 9.6rem;
+  width: 12.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  transition: all 0.75s;
+  padding-top: 1rem;
+}
+.current-label {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #ddd;
+}
+.current-score {
+  font-size: 3.6rem;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #444;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.25s;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  padding: 0.75rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn::first-letter {
+  margin-right: 0.7rem;
+  display: inline-block;
+  font-size: 2.4rem;
+}
+.btn--new {
+  top: 4rem;
+}
+.btn--roll {
+  top: 39.3rem;
+}
+.btn--hold {
+  top: 44.5rem;
+}
+.btn:active {
+  transform: translate(-50%, 3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1) 5;
+}
+.dice {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 16.5rem;
+  height: 10rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.player--winner {
+  background-color: #2f2f2f;
+}
+.player--winner .name {
+  font-weight: 700;
+  color: #c73657;
+}
