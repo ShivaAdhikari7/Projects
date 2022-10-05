@@ -141,3 +141,6 @@ main {
   font-weight: 700;
   color: #c73657;
 }
+.hidden {
+  display: none;
+}
