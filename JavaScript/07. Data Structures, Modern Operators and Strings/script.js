@@ -347,3 +347,59 @@ for (let { open, close } of Object.values(openingHours)) {
 
 //   console.log(`${i + 1}: ${el}`);
 // }
+
+// Maps:
+
+const rest = new Map();
+
+rest
+  .set("open", 12)
+  .set("categories", ["Apple", "Ball", "cat"])
+  .set("close", 22);
+console.log(rest);
+
+console.log(
+  rest.get("open") == 12 && rest.get("close") > 22
+    ? "we are open"
+    : "We are close"
+);
+
+// Quiz app:
+const question = new Map([
+  ["question", "Which is the best programming language in the world?"],
+  [1, "C"],
+  [2, "Python"],
+  [3, "JavaScript"],
+  ["Correct", 3],
+  [true, "Your answer is correct"],
+  [false, "Try again"],
+]);
+console.log(question);
+
+// for (const [key, { open, close }] of Object.entries(openingHours)) {
+//   console.log(key, open, close);
+// }
+
+// // Converting into map if you already have an object:
+// const openHour = new Map(Object.entries(openingHours));
+// for (const [key, { open, close }] of openHour) {
+//   console.log(key, open, close);
+// }
+
+// Quiz application:
+// console.log(question);
+// console.log(question.get("question"));
+
+// for (const [key, value] of question) {
+//   if (typeof key === "number") console.log(`Answer: ${key}: ${value}`);
+// }
+// const answer = Number(prompt("Enter the number between 1 to 3"));
+
+// // Both are correct:
+// console.log(answer === 3 ? question.get(true) : question.get(false));
+
+// console.log(question.get(question.get("Correct") === answer));
+
+// Changing question to arrays:
+// let arr = [...question];
+// console.log([...question.values(question)]);

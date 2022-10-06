@@ -156,20 +156,58 @@ const game = {
 
 // 2.
 
-let sum = 0;
+// let sum = 0;
 
-for (let key of Object.values(game.odds)) {
-  sum += key;
-}
-console.log(`Average is ${sum / 3}`);
+// for (let key of Object.values(game.odds)) {
+//   sum += key;
+// }
+// console.log(`Average is ${sum / 3}`);
+
+// // 3.
+
+// for (const [team, point] of Object.entries(game.odds)) {
+//   let teamStr = team === "x" ? "draw" : `victory ${game[team]}`;
+
+//   console.log(`Odd of ${teamStr}: ${point}`);
+// }
+
+// // 4.
+// let soccers = {};
+
+// #Coding Challenge 2:
+
+const gameEvents = new Map([
+  [17, "Goal"],
+  [36, "Substitution"],
+  [47, "Goal"],
+  [61, "Substitution"],
+  [64, "Yellow Card"],
+  [69, "Red Card"],
+  [70, "Substitution"],
+  [76, "Goal"],
+  [80, "Goal"],
+  [92, "Yellow Card"],
+]);
+
+// 1.
+let events = new Set([...gameEvents.values()]);
+console.log([...events]);
+
+// // 2.
+// gameEvents.delete(64);
+// console.log(gameEvents);
 
 // 3.
-
-for (const [team, point] of Object.entries(game.odds)) {
-  let teamStr = team === "x" ? "draw" : `victory ${game[team]}`;
-
-  console.log(`Odd of ${teamStr}: ${point}`);
-}
+let time = [...gameEvents.keys()].pop();
+console.log(
+  `At an average of every ${time / gameEvents.size} minutes the event occured.`
+);
 
 // 4.
-let soccers = {};
+// for (const [minute, event] of gameEvents) {
+//   console.log(
+//     minute <= 45
+//       ? `[First Half] ${minute} : ${event}`
+//       : `[Second Half]: ${minute}: ${event}`
+//   );
+// }
