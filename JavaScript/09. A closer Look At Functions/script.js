@@ -196,16 +196,25 @@
 
 // More about the clousers:
 
-const boardingPassengers = (n, wait) => {
-  const noOfPassengers = n / 3;
+// const boardingPassengers = (n, wait) => {
+//   const noOfPassengers = n / 3;
 
-  setTimeout(function () {
-    console.log(`Boarding will start in ${wait} seconds`);
-    console.log(
-      `There are 3 group with ${noOfPassengers} passengers in each group`
-    );
-  }, 3000);
-  console.log(`There are total ${n} passengers`);
-};
+//   setTimeout(function () {
+//     console.log(`Boarding will start in ${wait} seconds`);
+//     console.log(
+//       `There are 3 group with ${noOfPassengers} passengers in each group`
+//     );
+//   }, 3000);
+//   console.log(`There are total ${n} passengers`);
+// };
 
-boardingPassengers(180, 3);
+// const noOfPassengers = 1000;
+// boardingPassengers(180, 3);
+
+(function () {
+  const header = document.querySelector("h1");
+  header.style.color = "red";
+  document.body.addEventListener("click", function () {
+    header.style.color = "blue";
+  });
+})();
