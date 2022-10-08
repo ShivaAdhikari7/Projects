@@ -172,24 +172,40 @@
 
 // We will look at the closure here:
 
-let f;
-const e = function () {
-  const a = 3;
-  f = function () {
-    console.log(a * 2);
-  };
+// let f;
+// const e = function () {
+//   const a = 3;
+//   f = function () {
+//     console.log(a * 2);
+//   };
+// };
+
+// const h = function () {
+//   const c = 7;
+//   f = function () {
+//     console.log(c + 3);
+//   };
+// };
+// e();
+// f();
+// console.dir(f);
+
+// h();
+// f();
+// console.dir(f);
+
+// More about the clousers:
+
+const boardingPassengers = (n, wait) => {
+  const noOfPassengers = n / 3;
+
+  setTimeout(function () {
+    console.log(`Boarding will start in ${wait} seconds`);
+    console.log(
+      `There are 3 group with ${noOfPassengers} passengers in each group`
+    );
+  }, 3000);
+  console.log(`There are total ${n} passengers`);
 };
 
-const h = function () {
-  const c = 7;
-  f = function () {
-    console.log(c + 3);
-  };
-};
-e();
-f();
-console.dir(f);
-
-h();
-f();
-console.dir(f);
+boardingPassengers(180, 3);
