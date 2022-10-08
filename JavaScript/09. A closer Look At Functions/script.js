@@ -45,7 +45,7 @@
 // checkIn(flightName, jonas);
 
 // Higher Level and lower level functions: as well as callback functions:
-const oneWord = (str) => str.replace(/ /g, "").toLowerCase();
+// const oneWord = (str) => str.replace(/ /g, "").toLowerCase();
 
 // oneWord("JavaScript is best");
 
@@ -65,11 +65,131 @@ const oneWord = (str) => str.replace(/ /g, "").toLowerCase();
 
 // My Own Example of Callback Function:
 
-const JoinedName = (str1, str2) => {
-  return str1.concat(str2);
-};
-const fullName = (str1, str2, func) => {
-  console.log(`The full name is ${func(str1, str2)}`);
+// const JoinedName = (str1, str2) => {
+//   return str1.concat(str2);
+// };
+// const fullName = (str1, str2, func) => {
+//   console.log(`The full name is ${func(str1, str2)}`);
+// };
+
+// fullName("Shiva", " Adhikari", JoinedName);
+
+// Fuction Returning Functions:
+// const greet = function (greeting) {
+//   return function (personName) {
+//     console.log(`${greeting} ${personName}`);
+//   };
+// };
+
+// const greets = (greeting) => {
+//   return (personName) => {
+//     console.log(`${greeting} ${personName}`);
+//   };
+// };
+
+// const greetings = greets("Hi");
+// greetings("Jonas");
+
+// Call, bind and apply in functions:
+
+// const seetaAirlines = {
+//   airline: "Seeta",
+//   iataCode: "LH",
+//   bookings: [],
+
+//   book(flightNum, personName) {
+//     console.log(
+//       `${personName} book a seat on ${this.airline} ${this.iataCode}${flightNum}`
+//     );
+//     this.bookings.push(`{flight:${this.iataCode}${flightNum}, ${personName}}`);
+//   },
+// };
+
+// seetaAirlines.book(23, "Seeta Adhikari");
+// seetaAirlines.book(26, "Bipin Adhikari");
+// console.log(seetaAirlines.bookings);
+
+// const YetiAirlines = {
+//   airline: "Yeti",
+//   iataCode: "YH",
+//   bookings: [],
+// };
+// const book = seetaAirlines.book;
+
+// // Call method in function:
+// book.call(YetiAirlines, 25, "Shiva Adhikari");
+// console.log(YetiAirlines.bookings);
+
+// // Apply  method in function:
+// book.apply(YetiAirlines, [29, "Bikash Adhikari"]);
+// let flightDetail = [60, "Atmaram Rai"];
+// book.apply(YetiAirlines, flightDetail);
+
+// // This apply method's work can also be done by call method by destructuring the array:
+// book.call(YetiAirlines, ...flightDetail);
+
+// Bind Method in function:
+// bookSeeta = book.bind(seetaAirlines);
+// bookSeeta(26, "Shiva Adhikari");
+
+// bookSeeta29 = book.bind(seetaAirlines, 29);
+// bookSeeta29("Aakash Adhikari");
+// console.log(seetaAirlines.bookings);
+// console.log(bookSeeta);
+
+// With AddEvent Listener:
+// seetaAirlines.planes = 300;
+// seetaAirlines.buyPlane = function () {
+//   console.log(this);
+//   this.planes++;
+//   console.log(this.planes);
+// };
+// document
+//   .querySelector(".btn-new")
+//   .addEventListener("click", seetaAirlines.buyPlane.bind(seetaAirlines));
+
+// With our daily practice:
+
+// const addTax = (rate, value) => value + value * rate;
+// console.log(addTax(0.1, 200));
+
+// If regular to be added the tax is 23%, then:
+// const totalTax = addTax.bind(null, 0.1);
+// Same as:
+// const totalTax = (value) => value + value * 0.23;
+// console.log(totalTax(300));
+
+// const addTax = function (rate) {
+//   return function (value) {
+//     console.log(value + value * rate);
+//   };
+// };
+
+// const addTax = (rate) => (value) => value + value * rate;
+
+// let totalTax = addTax(0.1);
+// console.log(totalTax(200));
+
+// We will look at the closure here:
+
+let f;
+const e = function () {
+  const a = 3;
+  f = function () {
+    console.log(a * 2);
+  };
 };
 
-fullName("Shiva", " Adhikari", JoinedName);
+const h = function () {
+  const c = 7;
+  f = function () {
+    console.log(c + 3);
+  };
+};
+e();
+f();
+console.dir(f);
+
+h();
+f();
+console.dir(f);
