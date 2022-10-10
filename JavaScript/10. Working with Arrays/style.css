@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  background: linear-gradient(
+    to top left,
+    rgba(2, 5, 10, 0.2) 20%,
+    rgba(255, 230, 110) 60%
+  );
+}
+.h1-container {
+  height: 79vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  margin: 50px;
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
