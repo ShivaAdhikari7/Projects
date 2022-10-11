@@ -53,3 +53,32 @@ console.log(filteredMovements);
 // Reduce function:
 const reduedMovements = movements.reduce((mov) => mov);
 console.log(reduedMovements);
+
+// Withdarw array and deposit array using filter function:
+const withdraw = movements.filter(mov=>mov<0)
+console.log(withdraw);
+
+const deposit = movements.filter(mov=>mov>0);
+console.log(deposit)
+
+// Using reduce function in movements:
+const balance= movements.reduce((acc, mov)=>acc+mov, 0)
+console.log(balance);
+// Same job using for loop:
+
+let sum=0;
+ for(const value of movements){
+  sum= value+sum;
+ }
+ console.log(sum);
+
+ document.querySelector('.balance').value= movements.reduce((curr, mov)=>curr+mov, 0);
+ 
+// Maximum using reduce method:
+const max= movements.reduce((acc, mov)=>{
+  console.log(`Accumulator: ${acc}`)
+  if(acc> mov) return acc;
+  else return mov;
+}, movements[0])
+console.log(max)
+console.log(movements)
