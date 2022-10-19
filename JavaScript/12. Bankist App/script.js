@@ -99,7 +99,6 @@ const inputCloseUsername = document.querySelector('.form__input--user');
 const inputClosePin = document.querySelector('.form__input--pin');
 
 const displayMovements = function (movements, sort) {
-  console.log(sort);
   containerMovements.innerHTML = ' ';
   let movs = sort ? movements.slice().sort((a, b) => a - b) : movements;
 
