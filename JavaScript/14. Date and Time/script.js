@@ -127,6 +127,6 @@ a.addEventListener("click", function (e) {
   console.log(e.target);
   console.log(e.currentTarget);
   console.log("link clicked");
-  this.style.backgroundColor = randomColor();
+  this.style.backgroundColor = rgba(0, 0, 0, 0.1);
   // e.stopPropagation();
 });
