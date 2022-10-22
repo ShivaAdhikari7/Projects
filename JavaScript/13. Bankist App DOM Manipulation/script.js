@@ -8,6 +8,10 @@ const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.btn--close-modal');
 const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
 
+const titleLink = document.querySelector('.header-title-link');
+const section1 = document.querySelector('#section--1');
+// Section:
+
 const openModal = function () {
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
