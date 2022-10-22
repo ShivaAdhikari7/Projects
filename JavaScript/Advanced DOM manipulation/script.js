@@ -13,6 +13,11 @@ const section2 = document.querySelector('#section--2');
 const section3 = document.querySelector('#section--3');
 
 const navLink = document.querySelectorAll('.nav__link');
+const nav = document.querySelector('nav');
+
+let tabsContainer = document.querySelector('.operations__tab-container');
+let tabsContent = document.querySelectorAll('.operations__content');
+let tabBtn = document.querySelectorAll('.operations__tab');
 
 const openModal = function () {
   modal.classList.remove('hidden');
@@ -68,27 +73,51 @@ btnScroll.addEventListener('click', () => {
 // });
 
 // Operations section:
-let tabsContainer = document.querySelector('.operations__tab-container');
-let tabsContent = document.querySelectorAll('.operations__content');
-let tabBtn = document.querySelectorAll('.operations__tab');
 
-tabsContainer.addEventListener('click', function (e) {
-  let clicked = e.target.closest('.operations__tab');
+// tabsContainer.addEventListener('click', function (e) {
+//   let clicked = e.target.closest('.operations__tab');
 
-  if (!clicked) return;
+//   if (!clicked) return;
 
-  // Remove active classes from both button and the content
-  tabBtn.forEach(b => {
-    b.classList.remove('operations__tab--active');
-  });
-  // Remove active class from content:
-  tabsContent.forEach(t => {
-    t.classList.remove('operations__content--active');
-  });
-  // Add active to the button:
-  clicked.classList.add('operations__tab--active');
+//   // Remove active classes from both button and the content
+//   tabBtn.forEach(b => {
+//     b.classList.remove('operations__tab--active');
+//   });
+//   // Remove active class from content:
+//   tabsContent.forEach(t => {
+//     t.classList.remove('operations__content--active');
+//   });
+//   // Add active to the button:
+//   clicked.classList.add('operations__tab--active');
 
-  document
-    .querySelector(`.operations__content--${clicked.dataset.tab}`)
-    .classList.add('operations__content--active');
-});
+//   document
+//     .querySelector(`.operations__content--${clicked.dataset.tab}`)
+//     .classList.add('operations__content--active');
+// });
+
+// console.log(secCords.top);
+// window.addEventListener('scroll', () => {
+//   if (window.scrollY > secCords.top) nav.classList.add('sticky');
+//   else nav.classList.remove('sticky');
+// });
+
+// Passing arguments to the eventHandler:
+
+const setOpacity = function (e) {
+  if (e.target.classList.contains('nav__link')) {
+    let link = e.target;
+    let siblings = link.closest('nav').querySelectorAll('.nav__link');
+    let logo = link.closest('nav').querySelector('#logo');
+
+    [...siblings].forEach(el => {
+      if (el !== link) {
+        el.style.opacity = this;
+      }
+    });
+    logo.style.opacity = this;
+  }
+};
+
+nav.addEventListener('mouseover', setOpacity.bind('0.5'));
+
+nav.addEventListener('mouseout', setOpacity.bind('1'));
