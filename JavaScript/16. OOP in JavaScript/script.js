@@ -19,18 +19,43 @@
 
 // Coding Challenge 1:
 
-// const Car = function (make, speed) {
-//   this.make = make;
-//   this.speed = speed;
-// };
-// Car.prototype.accelerate = function () {
-//   this.speed = this.speed + 10;
-//   console.log(this.speed);
-// };
-// Car.prototype.brake = function () {
-//   this.speed = this.speed - 5;
-//   console.log(this.speed);
-// };
+const Car = function (make, speed) {
+  this.make = make;
+  this.speed = speed;
+};
+Car.prototype.accelerate = function () {
+  this.speed = this.speed + 10;
+  console.log(this.speed);
+};
+Car.prototype.brake = function () {
+  this.speed = this.speed - 5;
+  console.log(this.speed);
+};
+
+const EV = function (make, speed, charge) {
+  Car.call(this, make, speed);
+  this.charge = charge;
+};
+
+EV.prototype = Object.create(Car.prototype);
+EV.prototype.constructor = EV;
+
+EV.prototype.accelerate = function () {
+  this.speed = this.speed + 20;
+  this.charge = this.charge - 1;
+  console.log(
+    `${this.make} is running at the speed of ${this.speed} and with charge ${this.charge} %`
+  );
+};
+
+EV.prototype.chargeBattery = function (chargeTo) {
+  this.charge = this.charge + chargeTo;
+  console.log(this.charge);
+};
+
+const Tesla = new EV("Tesla", 120, 22);
+Tesla.chargeBattery(56);
+Tesla.accelerate();
 // const BMW = new Car("BMW", 150);
 // const Mercedes = new Car("Mercedes", 95);
 // BMW.accelerate();
@@ -40,35 +65,35 @@
 // console.log(BMW);
 
 // Coding challenge 2:
-class Car {
-  constructor(make, speed) {
-    this.make = make;
-    this.speed = speed;
-  }
-  accelerate() {
-    this.speed = this.speed + 10;
-    console.log(this.speed);
-  }
-  brake() {
-    this.speed = this.speed - 10;
-    console.log(this.speed);
-  }
-  get speedUS() {
-    console.log(this.speed / 1.6);
-  }
+// class Car {
+//   constructor(make, speed) {
+//     this.make = make;
+//     this.speed = speed;
+//   }
+//   accelerate() {
+//     this.speed = this.speed + 10;
+//     console.log(this.speed);
+//   }
+//   brake() {
+//     this.speed = this.speed - 10;
+//     console.log(this.speed);
+//   }
+//   get speedUS() {
+//     console.log(this.speed / 1.6);
+//   }
 
-  set speedUS(speed) {
-    this._speed = speed * 1.6;
-  }
-}
+//   set speedUS(speed) {
+//     this._speed = speed * 1.6;
+//   }
+// }
 
-const BMW = new Car("BMW", 150);
-const Mercedes = new Car("Mercedes", 95);
-BMW.accelerate();
-BMW.brake();
-BMW.speedUS;
-BMW.speedUS = 190;
-BMW.accelerate();
+// const BMW = new Car("BMW", 150);
+// const Mercedes = new Car("Mercedes", 95);
+// BMW.accelerate();
+// BMW.brake();
+// BMW.speedUS;
+// BMW.speedUS = 190;
+// BMW.accelerate();
 
 // ES6 classes:
 // class PersonCl {
