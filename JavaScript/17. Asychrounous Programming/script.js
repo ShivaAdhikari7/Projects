@@ -119,19 +119,33 @@ btn.addEventListener('click', function () {
 });
 
 // Coding challenge 1:
-const whereAmI = function (lat, long) {
-  fetch(`https://geocode.xyz/${lat},${long}?geoit=json&auth=${apiKey}`)
-    .then(response => response.json())
-    .then(data => {
-      console.log(data);
-      console.log(`You are in ${data.city}, ${data.country}`);
+// const whereAmI = function (lat, long) {
+//   fetch(`https://geocode.xyz/${lat},${long}?geoit=json&auth=${apiKey}`)
+//     .then(response => response.json())
+//     .then(data => {
+//       console.log(data);
+//       console.log(`You are in ${data.city}, ${data.country}`);
 
-      return fetch(`https://restcountries.com/v3.1/name/${data.country}`);
-    })
-    .then(response => response.json())
-    .then(data => getCountryData(data[0].name.common))
-    .catch(err => renderError(`Cannot fetch the data.${err.message}`));
-};
-whereAmI(52.508, 13.381);
+//       return fetch(`https://restcountries.com/v3.1/name/${data.country}`);
+//     })
+//     .then(response => response.json())
+//     .then(data => getCountryData(data[0].name.common))
+//     .catch(err => renderError(`Cannot fetch the data.${err.message}`));
+// };
+// whereAmI(52.508, 13.381);
 // whereAmI(19.037, 72.873);
 // whereAmI(-33.933, 18.474);
+
+// Creating the promises:
+const lotteryTicket = new Promise(function (resolve, reject) {
+  console.log('Lottery ticket is going on');
+  setTimeout(() => {
+    if (Math.random() >= 0.5) {
+      resolve('You win');
+    } else {
+      reject(new Error('You lose'));
+    }
+  }, 1000);
+});
+
+lotteryTicket.then(res => console.log(res)).catch(err => console.error(err));
