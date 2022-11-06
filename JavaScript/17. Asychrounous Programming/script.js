@@ -115,7 +115,7 @@ const getCountryData = function (country) {
 };
 
 btn.addEventListener('click', function () {
-  getCountryData('portugal');
+  // getCountryData('portugal');
 });
 
 // Coding challenge 1:
@@ -137,15 +137,72 @@ btn.addEventListener('click', function () {
 // whereAmI(-33.933, 18.474);
 
 // Creating the promises:
-const lotteryTicket = new Promise(function (resolve, reject) {
-  console.log('Lottery ticket is going on');
-  setTimeout(() => {
-    if (Math.random() >= 0.5) {
-      resolve('You win');
-    } else {
-      reject(new Error('You lose'));
-    }
-  }, 1000);
-});
+// const lotteryTicket = new Promise(function (resolve, reject) {
+//   console.log('Lottery ticket is going on');
+//   setTimeout(() => {
+//     if (Math.random() >= 0.5) {
+//       resolve('You win');
+//     } else {
+//       reject(new Error('You lose'));
+//     }
+//   }, 1000);
+// });
 
-lotteryTicket.then(res => console.log(res)).catch(err => console.error(err));
+// lotteryTicket.then(res => console.log(res)).catch(err => console.error(err));
+
+// Async and await function:
+const getLocation = function () {
+  return new Promise(function (resolve, reject) {
+    navigator.geolocation.getCurrentPosition(resolve, reject);
+  });
+};
+
+const whereAmI = async function () {
+  try {
+    const geoloc = await getLocation();
+    const { latitude: lat, longitude: long } = geoloc.coords;
+
+    const geores = await fetch(
+      `https://geocode.xyz/${lat},${long}?geoit=json&auth=${apiKey}`
+    );
+    if (!geores.ok) {
+      throw new Error(`Failed to get the location`);
+    }
+    const geodata = await geores.json();
+
+    const res = await fetch(
+      `https://restcountries.com/v3.1/name/${geodata.country}`
+    );
+    if (!res.ok) {
+      throw new Error(`Failed to get the country`);
+    }
+    const resdata = await res.json();
+
+    getCountry(resdata[0]);
+
+    return `You are in the ${geodata.city}, ${geodata.country}`;
+  } catch (err) {
+    renderError(`${err.message}`);
+    console.error(`${err}`);
+    throw err;
+  }
+};
+
+// btn.addEventListener('click', function () {
+//   whereAmI();
+
+// });
+// whereAmI()
+//   .then(city => console.log(city))
+//   .catch(err => console.error(err))
+//   .finally(() => console.log('Hello world'));
+// countriesContainer.style.opacity = '1';
+
+(async function () {
+  try {
+    const city = await whereAmI();
+    console.log(city);
+  } catch (err) {
+    console.error(err.message);
+  }
+})();
