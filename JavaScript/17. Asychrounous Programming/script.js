@@ -262,3 +262,26 @@ const getall3Countries = async function (c1, c2, c3) {
   }
 };
 getall3Countries('portugal', 'japan', 'nepal');
+
+const timeOut = function (sec) {
+  return new Promise(function (_, reject) {
+    setTimeout(() => {
+      reject(new Error(`Request took too long`));
+    }, sec * 1000);
+  });
+};
+
+(async function () {
+  try {
+    const [data] = await Promise.race([
+      getJsonData1(
+        `https://restcountries.com/v3.1/name/italy`,
+        'cannot get the country'
+      ),
+      timeOut(0.1),
+    ]);
+    console.log(data.capital);
+  } catch (error) {
+    console.error(error);
+  }
+})();

@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 97.8vh;
+  background: linear-gradient(to top left, black, white);
+}
+h1 {
+  font-size: 35px;
+}
