@@ -6,26 +6,26 @@ const countriesContainer = document.querySelector('.countries');
 const apiKey = '365274678035961105351x72776';
 ///////////////////////////////////////
 
-const getCountry = function (data, className = '') {
-  let html = `<article class="country ${className}">
-  <img class="country__img" src="${data.flags.svg}" />
-  <div class="country__data">
-      <h3 class="country__name">${data.name.common}</h3>
-      <h4 class="country__region">${data.region}</h4>
-      <p class="country__row"><span>👫</span>${(
-        +data.population / 100000
-      ).toFixed(1)} million</p>
-      <p class="country__row"><span>🗣️</span>${data.languages['por']}</p>
-      <p class="country__row"><span>💰</span>${undefined}</p>
-  </div>
-</article>`;
+// const getCountry = function (data, className = '') {
+//   let html = `<article class="country ${className}">
+//   <img class="country__img" src="${data.flags.svg}" />
+//   <div class="country__data">
+//       <h3 class="country__name">${data.name.common}</h3>
+//       <h4 class="country__region">${data.region}</h4>
+//       <p class="country__row"><span>👫</span>${(
+//         +data.population / 100000
+//       ).toFixed(1)} million</p>
+//       <p class="country__row"><span>🗣️</span>${data.languages['por']}</p>
+//       <p class="country__row"><span>💰</span>${undefined}</p>
+//   </div>
+// </article>`;
 
-  countriesContainer.insertAdjacentHTML('beforeend', html);
-};
+//   countriesContainer.insertAdjacentHTML('beforeend', html);
+// };
 
-const renderError = function (message) {
-  countriesContainer.insertAdjacentText('beforeend', message);
-};
+// const renderError = function (message) {
+//   countriesContainer.insertAdjacentText('beforeend', message);
+// };
 
 const getJsonData = function (url, errorMessage = 'Something went wrong') {
   return fetch(url).then(response => {
@@ -36,87 +36,87 @@ const getJsonData = function (url, errorMessage = 'Something went wrong') {
   });
 };
 
-// const getCountryAndNeighbour = function (country) {
-//   const request = new XMLHttpRequest();
-//   request.open('GET', `https://restcountries.com/v3.1/name/${country}`);
-//   request.send();
+// // const getCountryAndNeighbour = function (country) {
+// //   const request = new XMLHttpRequest();
+// //   request.open('GET', `https://restcountries.com/v3.1/name/${country}`);
+// //   request.send();
 
-//   request.addEventListener('load', function () {
-//     const [data] = JSON.parse(request.responseText);
-//     getCountry(data);
+// //   request.addEventListener('load', function () {
+// //     const [data] = JSON.parse(request.responseText);
+// //     getCountry(data);
 
-//     console.log(data);
-//     let [neighbour] = data.borders;
+// //     console.log(data);
+// //     let [neighbour] = data.borders;
 
-//     const request2 = new XMLHttpRequest();
-//     request2.open('GET', `https://restcountries.com/v3.1/alpha/${neighbour}`);
-//     request2.send();
+// //     const request2 = new XMLHttpRequest();
+// //     request2.open('GET', `https://restcountries.com/v3.1/alpha/${neighbour}`);
+// //     request2.send();
 
-//     request2.addEventListener('load', function () {
-//       const [data2] = JSON.parse(this.responseText);
-//       console.log(data2);
+// //     request2.addEventListener('load', function () {
+// //       const [data2] = JSON.parse(this.responseText);
+// //       console.log(data2);
 
-//       getCountry(data2, 'neighbour');
-//     });
-//   });
-// };
+// //       getCountry(data2, 'neighbour');
+// //     });
+// //   });
+// // };
 
-// getCountryAndNeighbour('portugal');
+// // getCountryAndNeighbour('portugal');
 
-// Using the fetch API and promises:
+// // Using the fetch API and promises:
+
+// // const getCountryData = function (country) {
+// //   fetch(`https://restcountries.com/v3.1/name/${country}`)
+// //     .then(function (response) {
+// //       console.log(response);
+// //       return response.json();
+// //     })
+// //     .then(function (data) {
+// //       getCountry(data[0]);
+// //     });
+// // };
 
 // const getCountryData = function (country) {
-//   fetch(`https://restcountries.com/v3.1/name/${country}`)
-//     .then(function (response) {
-//       console.log(response);
-//       return response.json();
-//     })
-//     .then(function (data) {
+//   // fetch(`https://restcountries.com/v3.1/name/${country}`)
+//   //   .then(response => {
+//   //     console.log(response);
+//   //     if (!response.ok) {
+//   //       throw new Error(`Country not found`);
+//   //     }
+//   //     return response.json();
+//   //   })
+//   getJsonData(
+//     `https://restcountries.com/v3.1/name/${country}`,
+//     'country not found'
+//   )
+//     .then(data => {
 //       getCountry(data[0]);
+
+//       const neighbour = data[0].borders[0];
+
+//       if (!neighbour) throw new Error(`Neighbour not found`);
+
+//       return getJsonData(
+//         `https://restcountries.com/v3.1/alpha/${neighbour}`,
+//         'Country not found'
+//       );
+//     })
+
+//     .then(data => {
+//       getCountry(data[0], 'neighbour');
+//     })
+//     .catch(err => {
+//       console.error(err);
+//       renderError(`Something went wrong ${err.message}`);
+//     })
+//     .finally(() => {
+//       countriesContainer.style.opacity = '1';
 //     });
 // };
 
-const getCountryData = function (country) {
-  // fetch(`https://restcountries.com/v3.1/name/${country}`)
-  //   .then(response => {
-  //     console.log(response);
-  //     if (!response.ok) {
-  //       throw new Error(`Country not found`);
-  //     }
-  //     return response.json();
-  //   })
-  getJsonData(
-    `https://restcountries.com/v3.1/name/${country}`,
-    'country not found'
-  )
-    .then(data => {
-      getCountry(data[0]);
-
-      const neighbour = data[0].borders[0];
-
-      if (!neighbour) throw new Error(`Neighbour not found`);
-
-      return getJsonData(
-        `https://restcountries.com/v3.1/alpha/${neighbour}`,
-        'Country not found'
-      );
-    })
-
-    .then(data => {
-      getCountry(data[0], 'neighbour');
-    })
-    .catch(err => {
-      console.error(err);
-      renderError(`Something went wrong ${err.message}`);
-    })
-    .finally(() => {
-      countriesContainer.style.opacity = '1';
-    });
-};
-
-btn.addEventListener('click', function () {
-  // getCountryData('portugal');
-});
+// btn.addEventListener('click', function () {
+//   // getCountryData('portugal');
+// });
 
 // Coding challenge 1:
 // const whereAmI = function (lat, long) {
@@ -151,42 +151,42 @@ btn.addEventListener('click', function () {
 // lotteryTicket.then(res => console.log(res)).catch(err => console.error(err));
 
 // Async and await function:
-const getLocation = function () {
-  return new Promise(function (resolve, reject) {
-    navigator.geolocation.getCurrentPosition(resolve, reject);
-  });
-};
+// const getLocation = function () {
+//   return new Promise(function (resolve, reject) {
+//     navigator.geolocation.getCurrentPosition(resolve, reject);
+//   });
+// };
 
-const whereAmI = async function () {
-  try {
-    const geoloc = await getLocation();
-    const { latitude: lat, longitude: long } = geoloc.coords;
+// const whereAmI = async function () {
+//   try {
+//     const geoloc = await getLocation();
+//     const { latitude: lat, longitude: long } = geoloc.coords;
 
-    const geores = await fetch(
-      `https://geocode.xyz/${lat},${long}?geoit=json&auth=${apiKey}`
-    );
-    if (!geores.ok) {
-      throw new Error(`Failed to get the location`);
-    }
-    const geodata = await geores.json();
+//     const geores = await fetch(
+//       `https://geocode.xyz/${lat},${long}?geoit=json&auth=${apiKey}`
+//     );
+//     if (!geores.ok) {
+//       throw new Error(`Failed to get the location`);
+//     }
+//     const geodata = await geores.json();
 
-    const res = await fetch(
-      `https://restcountries.com/v3.1/name/${geodata.country}`
-    );
-    if (!res.ok) {
-      throw new Error(`Failed to get the country`);
-    }
-    const resdata = await res.json();
+//     const res = await fetch(
+//       `https://restcountries.com/v3.1/name/${geodata.country}`
+//     );
+//     if (!res.ok) {
+//       throw new Error(`Failed to get the country`);
+//     }
+//     const resdata = await res.json();
 
-    getCountry(resdata[0]);
+//     getCountry(resdata[0]);
 
-    return `You are in the ${geodata.city}, ${geodata.country}`;
-  } catch (err) {
-    renderError(`${err.message}`);
-    console.error(`${err}`);
-    throw err;
-  }
-};
+//     return `You are in the ${geodata.city}, ${geodata.country}`;
+//   } catch (err) {
+//     renderError(`${err.message}`);
+//     console.error(`${err}`);
+//     throw err;
+//   }
+// };
 
 // btn.addEventListener('click', function () {
 //   whereAmI();
@@ -198,11 +198,67 @@ const whereAmI = async function () {
 //   .finally(() => console.log('Hello world'));
 // countriesContainer.style.opacity = '1';
 
-(async function () {
+// (async function () {
+//   try {
+//     const city = await whereAmI();
+//     console.log(city);
+//   } catch (err) {
+//     console.error(err.message);
+//   }
+// })();
+
+// Running promises asynchronously:
+const getJsonData1 = async function (url, errormsg) {
   try {
-    const city = await whereAmI();
-    console.log(city);
+    const res = await fetch(url);
+    if (!res.ok) {
+      throw new Error('Country is not defined');
+    }
+    const data = await res.json();
+    return data;
   } catch (err) {
-    console.error(err.message);
+    console.log(`${errormsg}`);
   }
-})();
+};
+
+// const getallCountries = async function (c1, c2, c3) {
+//   const [data1] = await getJsonData(
+//     `https://restcountries.com/v3.1/name/${c1}`,
+//     'cannot get the country'
+//   );
+//   const [data2] = await getJsonData(
+//     `https://restcountries.com/v3.1/name/${c2}`,
+//     'cannot get the country'
+//   );
+//   const [data3] = await getJsonData(
+//     `https://restcountries.com/v3.1/name/${c3}`,
+//     'cannot get the country'
+//   );
+//   console.log(data1, data2, data3);
+//   console.log([data1.capital[0], data2.capital[0], data3.capital[0]]);
+// };
+// getallCountries('portugal', 'china', 'nepal');
+
+const getall3Countries = async function (c1, c2, c3) {
+  try {
+    const data = await Promise.all([
+      getJsonData1(
+        `https://restcountries.com/v3.1/name/${c1}`,
+        'cannot get the country'
+      ),
+      getJsonData1(
+        `https://restcountries.com/v3.1/name/${c2}`,
+        'cannot get the country'
+      ),
+      getJsonData1(
+        `https://restcountries.com/v3.1/name/${c3}`,
+        'cannot get the country'
+      ),
+    ]);
+
+    console.log(data.map(arr => arr[0].capital[0]));
+  } catch (err) {
+    console.log(err);
+  }
+};
+getall3Countries('portugal', 'japan', 'nepal');
