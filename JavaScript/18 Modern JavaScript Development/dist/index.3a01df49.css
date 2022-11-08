@@ -1,0 +1,14 @@
+body {
+  height: 97.8vh;
+  background: linear-gradient(to top left, #000, #fff);
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  display: flex;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
