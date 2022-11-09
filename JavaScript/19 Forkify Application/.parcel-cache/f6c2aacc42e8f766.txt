@@ -1,4 +1,16 @@
-4364
+4437
+95D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\to-regex-range\README.md133123556694907803 0
+80D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\picomatch133123556695214021 1
+93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\tslib\modules\index.js133123556101476788 0
+95D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\weak-lru-cache\README.md133123556102789638 0
+89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.package-lock.json133123556952135068 0
+115D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\node-gyp-build-optional-packages\optional.js133123556101918594 0
+120D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133123556105927346 0
+91D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\weak-lru-cache\tests133123556102268713 1
+62D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist133123631862436321 1
+94D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\mdn-data\css\types.json133123556104385901 0
+96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\plugins\prefixIds.js133123556105046054 0
+68D:\New Journey\Tutorial\JavaScript\19 Forkify Application\.gitignore133123626633756694 0
 92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\is-json\test\index.js133123556102490684 0
 115D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\css-exclusions.js133123556107468559 0
 61D:\New Journey\Tutorial\JavaScript\19 Forkify Application\src133123554968838959 1
@@ -8,15 +20,6 @@
 80D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\js-tokens133123556101848349 1
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\runtime-browser-hmr\src133123556102521560 1
 69D:\New Journey\Tutorial\JavaScript\19 Forkify Application\.prettierrc133090700136436282 0
-95D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\to-regex-range\README.md133123556694907803 0
-80D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\picomatch133123556695214021 1
-93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\tslib\modules\index.js133123556101476788 0
-95D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\weak-lru-cache\README.md133123556102789638 0
-89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.package-lock.json133123556952135068 0
-115D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\node-gyp-build-optional-packages\optional.js133123556101918594 0
-120D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133123556105927346 0
-91D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\weak-lru-cache\tests133123556102268713 1
-62D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist133123581690176970 1
 104D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\htmlnano\lib\modules\minifyCss.js133123556103780014 0
 89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\yaml\dist\types.js133123556105254228 0
 110D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\plugins\cleanupEnableBackground.js133123556103205346 0
@@ -37,9 +40,16 @@
 86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\forkify-flowchart-part-1.png133090700136909810 0
 86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\forkify-flowchart-part-2.png133090700137154866 0
 107D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\watcher\prebuilds\darwin-x64133123556105020977 1
+96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\package.json133123556107621094 0
+97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\utility-types\package.json133123556102490684 0
+101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\xxhash-wasm\esm\xxhash-wasm.js133123556101292803 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\forkify-flowchart-part-3.png133090700137406140 0
+83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\chokidar\lib133123556695092811 1
+88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\package.json133123556106189041 0
+68D:\New Journey\Tutorial\JavaScript\19 Forkify Application\index.html133090700137631195 0
 107D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\htmlparser2\lib\FeedHandler.d.ts.map133123556102845602 0
 109D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\utility-types\dist\mapped-types.js.map133123556103132463 0
-70D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules133123556951590771 1
+70D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules133123584886157351 1
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\AF.js133123556103259928 0
 77D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\semver133123556102542766 1
 131D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\060-contribute.md133123556105937793 0
@@ -49,13 +59,6 @@
 100D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-tree\lib\walker\create.js133123556104536684 0
 107D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\utility-types\dist\mapped-types.d.ts133123556103907338 0
 121D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\prefers-color-scheme.js133123556111549982 0
-96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\package.json133123556107621094 0
-97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\utility-types\package.json133123556102490684 0
-101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\xxhash-wasm\esm\xxhash-wasm.js133123556101292803 0
-86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\forkify-flowchart-part-3.png133090700137406140 0
-83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\chokidar\lib133123556695092811 1
-88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\package.json133123556106189041 0
-68D:\New Journey\Tutorial\JavaScript\19 Forkify Application\index.html133090700137631195 0
 77D:\New Journey\Tutorial\JavaScript\19 Forkify Application\src\img\favicon.png133090700137886701 0
 75D:\New Journey\Tutorial\JavaScript\19 Forkify Application\package-lock.json133123556951978649 0
 103D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\msgpackr-extract\src\.vs\src\v16133123556103280361 1
@@ -98,7 +101,7 @@
 93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\xxhash-wasm\LICENSE.md133123556102898516 0
 64D:\New Journey\Tutorial\JavaScript\19 Forkify Application\src\js133123554968803394 1
 88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\nth-check\lib\esm133123556104365134 1
-79D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-tree133123556107079547 1
+79D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-tree133123584825723791 1
 66D:\New Journey\Tutorial\JavaScript\19 Forkify Application\src\sass133123554969064016 1
 110D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\packager-css\lib\CSSPackager.js133123556101241014 0
 121D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\css-overflow-overlay.js133123556107961219 0
@@ -170,14 +173,14 @@
 110D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\audio-api.js133123556105188591 0
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domhandler\lib\index.d.ts133123556102789638 0
 79D:\New Journey\Tutorial\JavaScript\19 Forkify Application\src\sass\_upload.scss133090700139701272 0
-78D:\New Journey\Tutorial\JavaScript\19 Forkify Application\src\js\controller.js133123581689896332 0
+78D:\New Journey\Tutorial\JavaScript\19 Forkify Application\src\js\controller.js133123631862204672 0
 97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\mdn-data\css\at-rules.json133123556102419612 0
 109D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\terser\lib\utils\first_in_statement.js133123556104760531 0
 119D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\main-mjs\package.json133123556107833820 0
 105D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133123556103225789 0
 107D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\serializer.test.js133123556106964237 0
 136D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\library-custom-scopehoist\package.json133123556107793087 0
-75D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin133123556951590771 1
+75D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin133123584886147353 1
 92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\lib\svgo-node.js133123556105979988 0
 103D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\plugins\sortDefsChildren.js133123556105917281 0
 107D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\lib\loadParcelPlugin.js133123556106274381 0
@@ -186,27 +189,27 @@
 90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\terser\lib\parse.js133123556105422092 0
 84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@trysound\sax133123556101793039 1
 109D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\src\public\BundleGraph.js133123556105168373 0
-77D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@babel133123556092238653 1
+77D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@babel133123584884710901 1
 130D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.c133123556105229069 0
 103D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\utils\src\relativeUrl.js133123556105797152 0
 130D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_dump.c133123556105076146 0
 103D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\regenerator-runtime\package.json133123556101742986 0
-78D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel133123556939624334 1
-82D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell133123556092238653 1
+78D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel133123584886127279 1
+82D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell133123584885975901 1
 87D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc\helpers\src133123556107478687 1
 116D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell\source-map\dist\source-map.umd.js133123556101307851 0
 77D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@lezer133123556092238653 1
 93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\lib\svgo\tools.js133123556106147699 0
-76D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@lmdb133123556951590771 1
+76D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@lmdb133123584813111835 1
 90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\posthtml\lib\api.js133123556101208540 0
 89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\htmlnano\README.md133123556106018773 0
-88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@msgpackr-extract133123556951590771 1
+88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@msgpackr-extract133123584813111835 1
 89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\chrome-trace-event133123556102490684 1
 85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\yaml\schema.js133123556104885804 0
 83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\yaml\browser133123556105325000 1
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\MU.js133123556110918106 0
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\picture.js133123556111444838 0
-75D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc133123556092228675 1
+75D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc133123584886096696 1
 132D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\transformer-react-refresh-wrap\lib\helpers\helpers.js133123556101292803 0
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\plugins\removeEmptyContainers.js133123556105411798 0
 83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite133123556113333258 1
@@ -216,7 +219,8 @@
 107D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-what\lib\commonjs\parse.d.ts.map133123556103473693 0
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\dependencies\lz4\lib\dll\example133123556107437744 1
 122D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\source-map\parcel_sourcemap_node\Cargo.toml133123556106370807 0
-77D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@types133123556092228675 1
+82D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\cssesc133123584802131826 0
+77D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@types133123584825649648 1
 88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\parcel\lib\cli.js133123556101898489 0
 91D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domhandler\readme.md133123556102587403 0
 98D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domelementtype\lib\index.js133123556101647683 0
@@ -307,6 +311,7 @@
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\node-addon-api\LICENSE.md133123556104062751 0
 90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\braces\package.json133123556694827455 0
 112D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\css-lch-lab.js133123556107752549 0
+90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sshpk-sign.cmd133123584802131826 0
 81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domhandler133123556102542766 1
 114D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-tree\lib\definition-syntax\tokenizer.js133123556106779885 0
 79D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domutils133123556103800346 1
@@ -401,6 +406,7 @@
 133D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\custom-targets-distdir\package.json133123556107691651 0
 114D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\update-browserslist-db\check-npm-version.js133123556101120773 0
 95D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\htmlparser2\lib\index.js133123556101466684 0
+90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\esgenerate.ps1133123584802131826 0
 128D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc\helpers\src\_class_static_private_field_spec_set.mjs133123556106701736 0
 100D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\json-parse-even-better-errors133123556101848349 1
 123D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\react-refresh\cjs\react-refresh-babel.development.js133123556101542419 0
@@ -462,6 +468,7 @@
 85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\type-fest\ts41133123556104825602 1
 81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\picocolors133123556102365795 1
 88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\dist133123556112258572 1
+85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\uncss.cmd133123584802131826 0
 91D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\postcss-value-parser133123556102673105 1
 134D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\sample-mdb.txt133123556107407062 0
 101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\plugins\collapseGroups.js133123556103685668 0
@@ -515,9 +522,10 @@
 94D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\lib\public133123556107109603 1
 106D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\node-releases\data\release-schedule133123556101989118 1
 83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\keys.js133123556106840561 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sha.js.ps1133123584802131826 0
 101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\src\Dependency.js133123556105666470 0
 91D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\LICENSE133123556101208540 0
-89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\source-map-support133123556102566485 1
+89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\source-map-support133123584825690998 1
 77D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\stable133123556101848349 1
 87D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\csso\lib\replace133123556105401686 1
 93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\type-fest\package.json133123556101120773 0
@@ -528,7 +536,7 @@
 75D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo133123556106199084 1
 80D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\term-size133123556103047755 1
 117D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\user-select-none.js133123556112811502 0
-97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\19 Forkify Application.3464ddca.js133123567125505471 0
+97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\19 Forkify Application.3464ddca.js133123631056388377 0
 128D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\050-modules.md133123556105895958 0
 92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\braces\lib\compile.js133123556695163622 0
 97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\workers\index.d.ts133123556105335085 0
@@ -555,10 +563,12 @@
 123D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\viewport-unit-variants.js133123556112943219 0
 105D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\type-fest\source\set-required.d.ts133123556104750528 0
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\cosmiconfig\dist\index.js133123556102673105 0
+81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\which133123584802131826 0
 93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\update-browserslist-db133123556102577417 1
 93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domhandler\lib\node.js133123556101532364 0
 83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core133123556107905567 1
 84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\utility-types133123556103568700 1
+81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\jsesc133123584802131826 0
 101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-select\lib\attributes.d.ts133123556104536684 0
 94D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\node-addon-api\index.js133123556103639559 0
 109D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\src\public\Environment.js133123556105969912 0
@@ -733,6 +743,7 @@
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\CK.js133123556106519099 0
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\datauri.js133123556108515128 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\yaml\browser\types\timestamp.js133123556105106159 0
+80D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\uuid133123584802131826 0
 100D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\source-map-support\LICENSE.md133123556102407844 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\HK.js133123556109582460 0
 116D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\node_modules\node-addon-api\node_api.gyp133123556101085620 0
@@ -830,6 +841,7 @@
 98D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\weak-lru-cache\package.json133123556102542766 0
 119D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\terser\node_modules\commander\typings\index.d.ts133123556102480293 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\weak-lru-cache\rollup.config.js133123556102064947 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sshpk-sign133123584802131826 0
 106D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-tree\lib\syntax\function\var.js133123556106929135 0
 104D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\weak-lru-cache\tests\benchmark.js133123556101281649 0
 101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc\helpers\lib\_construct.js133123556104800539 0
@@ -897,7 +909,7 @@
 109D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\main-global133123556107823748 1
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\utility-types\dist\utility-types.d.ts133123556104002738 0
 90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\logger\test133123556101838116 1
-73D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\index.html133123567125606145 0
+73D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\index.html133123631056517134 0
 90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\terser\lib\scope.js133123556105551269 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domelementtype\lib\esm\index.js133123556101271588 0
 84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\bin\svgo133123556101208540 0
@@ -973,6 +985,7 @@
 110D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc\helpers\src\_wrap_native_super.mjs133123556107468559 0
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\package.json133123556113333258 0
 121D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\chacha8.c133123556104546777 0
+85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\jsesc.ps1133123584802131826 0
 98D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\optimizer-image\lib133123556101435769 1
 101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\type-fest\ts41\snake-case.d.ts133123556104835764 0
 101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\type-fest\source\asyncify.d.ts133123556102126283 0
@@ -1110,6 +1123,7 @@
 90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\htmlparser2\LICENSE133123556100832830 0
 114D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@babel\highlight\node_modules\color-convert133123556102480293 1
 99D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\plugins\inlineStyles.js133123556104589335 0
+85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\ansi-html133123584802131826 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\PM.js133123556111484915 0
 115D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\hash\parcel-hash.linux-x64-musl.node133123556105345163 0
 82D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\timsort\src133123556102779627 1
@@ -1144,6 +1158,7 @@
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\BR.js133123556106091496 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\CR.js133123556106800175 0
 126D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.c133123556105712012 0
+89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\ansi-html.ps1133123584802131826 0
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\terser\lib\utils\index.js133123556104940877 0
 93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\ordered-binary\LICENSE133123556100842832 0
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\terser\lib\mozilla-ast.js133123556105218992 0
@@ -1152,6 +1167,7 @@
 110D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\terser\node_modules\commander\Readme.md133123556102105445 0
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\terser\node_modules\commander\typings133123556102365795 1
 122D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_stat.c133123556105274574 0
+85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\jsesc.cmd133123584802131826 0
 98D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\dom-serializer\lib\index.js133123556102253647 0
 81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\semver\bin133123556101140781 1
 104D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\electron-to-chromium\package.json133123556103310936 0
@@ -1286,8 +1302,6 @@
 98D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\plugins\mergeStyles.js133123556104718321 0
 104D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\graph\lib\ContentGraph.js133123556102824936 0
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\plugins\moveGroupAttrsToElems.js133123556104845796 0
-94D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\mdn-data\css\types.json133123556104385901 0
-96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\plugins\prefixIds.js133123556105046054 0
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\htmlnano\docs\sidebars.js133123556104614557 0
 98D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\svgo\plugins\removeAttrs.js133123556105158289 0
 92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\sass\types\index.d.ts133123556942404150 0
@@ -1358,6 +1372,7 @@
 98D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\htmlnano\docs\versions.json133123556105432191 0
 93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\supports-color\license133123556100852832 0
 99D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\optimizer-terser\lib133123556101160789 1
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\esvalidate133123584802131826 0
 95D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\supports-color\readme.md133123556101918594 0
 89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\msgpackr\unpack.js133123556103841960 0
 105D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\dist\lib\supported.js133123556112317515 0
@@ -1482,6 +1497,7 @@
 100D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\types\lib\unsafe.d.ts133123556102865831 0
 150D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\package.json133123556106390984 0
 121D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\spellcheck-attribute.js133123556112218559 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\parser.cmd133123584802131826 0
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\lib\index.js133123556106018773 0
 92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\htmlnano\CHANGELOG.md133123556105979988 0
 103D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\sass\types\legacy\exception.d.ts133123556942404150 0
@@ -1534,13 +1550,13 @@
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\SD.js133123556112036866 0
 100D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\react-error-overlay\README.md133123556102939668 0
 103D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\react-error-overlay\lib\index.js133123556102556428 0
-92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\posthtml\node_modules133123556092249456 1
+92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\posthtml\node_modules133123584825680574 1
 99D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\posthtml-render\changelog.md133123556101803040 0
 106D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\alt-ww.js133123556104411336 0
 87D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\dotenv\config.js133123556101425404 0
 89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\error-ex\README.md133123556101657690 0
-94D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\posthtml-render\license133123556100870621 0
 120D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest3.c133123556105969912 0
+94D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\posthtml-render\license133123556100870621 0
 128D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\Makefile133123556103588914 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\posthtml-render\dist\index.d.ts133123556102386366 0
 100D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\posthtml-render\dist\index.js133123556101208540 0
@@ -1690,9 +1706,9 @@
 118D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.umd.js133123556101171932 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\SR.js133123556112228557 0
 99D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\nth-check\lib\compile.js.map133123556103270289 0
-99D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\nth-check\lib\index.d.ts.map133123556103537449 0
-97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\cache\lib\index.js133123556102814846 0
 106D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\watcher\prebuilds\win32-x64133123556105498273 1
+97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\cache\lib\index.js133123556102814846 0
+99D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\nth-check\lib\index.d.ts.map133123556103537449 0
 107D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\tls1-3.js133123556112613850 0
 97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\nth-check\lib\index.js.map133123556103675583 0
 114D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\html5semantic.js133123556109628671 0
@@ -1768,7 +1784,7 @@
 91D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\css\index.js133123556100870621 0
 149D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\a133123556105086146 1
 107D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\node-addon-api\tools\clang-format.js133123556103473693 0
-93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell\source-map133123556102845602 1
+93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell\source-map133123584883870452 1
 99D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\msgpackr-extract\binding.gyp133123556103363697 0
 101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\immutable\dist\immutable.es.js133123556940568755 0
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\src\index.js133123556106029307 0
@@ -2089,8 +2105,8 @@
 90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\js-tokens\README.md133123556101979110 0
 89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\chalk\package.json133123556102095375 0
 88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\is-number\LICENSE133123556694716578 0
-102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\ZA.js133123556113313131 0
 93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\is-number\package.json133123556694576531 0
+102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\ZA.js133123556113313131 0
 130D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope133123556102204060 1
 101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\chokidar\lib\nodefs-handler.js133123556695123025 0
 90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\is-number\README.md133123556694907803 0
@@ -2114,6 +2130,7 @@
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\is-binary-path\index.d.ts133123556694907803 0
 146D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false\src133123556105488201 1
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\QA.js133123556111683444 0
+87D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\astring.cmd133123584802131826 0
 89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\runtime-js133123556105106159 1
 94D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\is-binary-path\index.js133123556695011555 0
 116D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-select\lib\pseudo-selectors\subselects.js133123556103363697 0
@@ -2279,6 +2296,7 @@
 91D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\fill-range\README.md133123556694907803 0
 100D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\escape-string-regexp\index.js133123556101085620 0
 117D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\intl-pluralrules.js133123556110010405 0
+82D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\mkdirp133123584802131826 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\ER.js133123556108848893 0
 155D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false\src\index.js133123556105488201 0
 84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\escalade\dist133123556102240778 1
@@ -2390,6 +2408,7 @@
 97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-tree\lib\syntax\atrule133123556106733218 1
 85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domhandler\lib133123556102919392 1
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\reporter-cli\test133123556103013422 1
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\nanoid.ps1133123584802131826 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\GT.js133123556109445535 0
 94D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domhandler\package.json133123556101793039 0
 115D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\runtime-js\lib\helpers\bundle-url.js133123556102240778 0
@@ -2403,7 +2422,7 @@
 104D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\dist\lib\statuses.js133123556112268566 0
 95D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domelementtype\readme.md133123556102835282 0
 138D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0\package.json133123556105274574 0
-84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\index.62406edb.js.map133123581690166858 0
+84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\index.62406edb.js.map133123631862436321 0
 93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domelementtype\lib\esm133123556102949735 1
 100D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domelementtype\lib\index.d.ts133123556103132463 0
 92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\hash\index.js133123556101697707 0
@@ -2412,10 +2431,11 @@
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domelementtype\lib\esm\index.d.ts.map133123556102407844 0
 114D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\hash\parcel-hash.linux-x64-gnu.node133123556105086146 0
 106D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\domelementtype\lib\esm\package.json133123556101898489 0
+92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sshpk-verify.cmd133123584802131826 0
 89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\dom-serializer\lib133123556103639559 1
 93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\dom-serializer\LICENSE133123556100822828 0
 120D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\css-filter-function.js133123556107524367 0
-98D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\dom-serializer\node_modules133123556092249456 1
+98D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\dom-serializer\node_modules133123584886116803 1
 98D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\dom-serializer\package.json133123556102663030 0
 115D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\dom-serializer\node_modules\entities\LICENSE133123556100940276 0
 120D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\dom-serializer\node_modules\entities\package.json133123556103057823 0
@@ -2522,6 +2542,7 @@
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\plugin\src\PluginAPI.js133123556101552417 0
 107D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-what\lib\commonjs\index.d.ts.map133123556103321061 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\MC.js133123556110619234 0
+83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\astring133123584802131826 0
 103D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\transformer-posthtml\lib133123556101753032 1
 103D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-what\lib\commonjs\parse.d.ts133123556104168129 0
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\flexbox.js133123556109114534 0
@@ -2546,6 +2567,7 @@
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\IT.js133123556110062152 0
 99D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\transformer-html\src133123556102597669 1
 104D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\url.js133123556112781294 0
+89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\is-docker.ps1133123584802131826 0
 113D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\packager-js\lib\ESMOutputFormat.js133123556102865831 0
 99D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-tree\lib\walker\index.js133123556106029307 0
 98D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-tree\lib\utils\clone.js133123556103749551 0
@@ -2626,6 +2648,7 @@
 117D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\hash\parcel-hash.linux-arm64-musl.node133123556104825602 0
 100D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-tree\lib\lexer\generic.js133123556105605150 0
 104D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\css-tree\lib\lexer\match-graph.js133123556106116960 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\cssesc.ps1133123584802131826 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\AE.js133123556103122186 0
 91D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\packager-css133123556101823047 1
 116D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\ParcelConfigRequest.test.js133123556106625360 0
@@ -2816,6 +2839,7 @@
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\HU.js133123556109659032 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\ID.js133123556109669272 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\IL.js133123556109709793 0
+84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\uuid.cmd133123584802131826 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\JO.js133123556110093115 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\JP.js133123556110103188 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\regions\KM.js133123556110283679 0
@@ -3033,6 +3057,7 @@
 111D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\css-shapes.js133123556108156521 0
 115D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\css-snappoints.js133123556108166601 0
 112D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\css-subgrid.js133123556108187286 0
+85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\which.cmd133123584802131826 0
 117D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\css-supports-api.js133123556108197385 0
 110D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\css-table.js133123556108197385 0
 120D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\css-text-align-last.js133123556108207454 0
@@ -3117,6 +3142,7 @@
 109D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\temporal.js133123556112482007 0
 106D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\forms.js133123556109251264 0
 111D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\fullscreen.js133123556109272189 0
+83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\esparse133123584802131826 0
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\gamepad.js133123556109283302 0
 112D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\geolocation.js133123556109319024 0
 173D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-up\foo\package.json133123556106681613 0
@@ -3258,6 +3284,7 @@
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\rellist.js133123556111790930 0
 115D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc\helpers\lib\_interop_require_default.js133123556105391308 0
 104D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\rem.js133123556111801112 0
+85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\escodegen133123584802131826 0
 116D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\rest-parameters.js133123556111852395 0
 162D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\index.json133123556106214154 0
 118D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\rtcpeerconnection.js133123556111887829 0
@@ -3292,6 +3319,7 @@
 118D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\template-literals.js133123556112461804 0
 109D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\template.js133123556112471907 0
 109D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\testfeat.js133123556112492011 0
+81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\uncss133123584802131826 0
 114D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\text-emphasis.js133123556112507103 0
 134D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\package.json133123556107762811 0
 117D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\text-size-adjust.js133123556112527398 0
@@ -3307,6 +3335,7 @@
 124D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\upgradeinsecurerequests.js133123556112771219 0
 121D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc\helpers\lib\_class_private_field_loose_key.js133123556104303655 0
 128D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\url-scroll-to-text-fragment.js133123556112781294 0
+82D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\rimraf133123584802131826 0
 116D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\urlsearchparams.js133123556112791362 0
 111D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\caniuse-lite\data\features\use-strict.js133123556112811502 0
 88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\browserslist133123556113525919 0
@@ -3442,6 +3471,7 @@
 119D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\abortcontroller-polyfill\dist\abortcontroller.js133123556102147181 0
 124D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\abortcontroller-polyfill\dist\polyfill-patch-fetch.js133123556102939668 0
 116D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\abortcontroller-polyfill\dist\umd-polyfill.js133123556103300498 0
+85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\is-docker133123584802131826 0
 99D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@types\parse-json\index.d.ts133123556101394326 0
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@types\parse-json\LICENSE133123556100852832 0
 109D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\module-a.js133123556106304393 0
@@ -3483,6 +3513,7 @@
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc\helpers\src\_construct.mjs133123556106733218 0
 114D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\config-malformed133123556101637646 1
 105D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc\helpers\src\_create_class.mjs133123556106743239 0
+84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\purgecss133123584802131826 0
 105D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc\helpers\src\_create_super.mjs133123556106769756 0
 121D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@swc\helpers\src\_define_enumerable_properties.mjs133123556106820393 0
 104D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\src\public\Target.js133123556107139604 0
@@ -3853,6 +3884,7 @@
 112D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\namer-default\src\DefaultNamer.js133123556101572409 0
 116D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\runtime-js\lib\helpers\cacheLoader.js133123556102650584 0
 126D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\optimizer-image\parcel-image.linux-x64-gnu.node133123556106401046 0
+87D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\astring.ps1133123584802131826 0
 106D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\runtime-js\lib\helpers\node133123556104895819 1
 108D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\runtime-js\lib\helpers\worker133123556104935818 1
 123D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\runtime-js\lib\helpers\worker\wasm-loader.js133123556104940877 0
@@ -3961,6 +3993,7 @@
 96D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\optimizer-css\src133123556101496934 1
 112D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@babel\highlight\node_modules\chalk\types133123556102532112 1
 105D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\logger\test\Logger.test.js133123556101898489 0
+83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\ncp.cmd133123584802131826 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test133123556106029307 1
 117D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\bar.js133123556101803040 0
 118D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\env-dep133123556106254385 1
@@ -4009,6 +4042,7 @@
 101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\src\AssetGraph.js133123556104250172 0
 92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\css\README.md133123556101414585 0
 150D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser\browser.js133123556103695757 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\mkdirp.ps1133123584802131826 0
 147D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser\main.js133123556105645727 0
 152D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser\package.json133123556106426478 0
 158D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-exclude\package.json133123556106359661 0
@@ -4029,6 +4063,7 @@
 172D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0\node_modules\source-pnpm133123556106274381 1
 185D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0\node_modules\source-pnpm\package.json133123556106274381 0
 182D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0\node_modules\source-pnpm\source.js133123556106071341 0
+92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\miller-rabin.ps1133123584802131826 0
 126D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\test\fixture\nested\index.js133123556104589335 0
 116D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\library-scopehoist133123556107803157 1
 113D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\node-resolver-core\src\builtins.js133123556103851965 0
@@ -4126,8 +4161,10 @@
 129D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\library-scopehoist\package.json133123556107803157 0
 140D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\invalid-target-source-missing\package.json133123556107762811 0
 111D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\lib\public\PluginOptions.js133123556106681613 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\nanoid.cmd133123584802131826 0
 125D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\src133123556106049512 1
 134D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\src\index.js133123556106061240 0
+92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sshpk-verify.ps1133123584802131826 0
 133D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\invalid-source-missing\package.json133123556107752549 0
 126D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@parcel\core\test\fixtures\invalid-engines\package.json133123556107742234 0
 93D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\browserslist-lint133123556113525919 0
@@ -4275,6 +4312,7 @@
 115D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.mjs133123556102566485 0
 119D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.mjs.map133123556101707718 0
 122D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.umd.js.map133123556102029472 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\cssesc.cmd133123584802131826 0
 102D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell\gen-mapping\LICENSE133123556100802807 0
 113D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell\gen-mapping\src\gen-mapping.ts133123556103112188 0
 119D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@jridgewell\gen-mapping\src\sourcemap-segment.ts133123556103331139 0
@@ -4311,6 +4349,7 @@
 119D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@babel\highlight\node_modules\chalk\templates.js133123556102311259 0
 123D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@babel\highlight\node_modules\chalk\types\index.d.ts133123556102577417 0
 121D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@babel\highlight\node_modules\ansi-styles\index.js133123556101182883 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\esgenerate133123584802131826 0
 125D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@babel\highlight\node_modules\ansi-styles\package.json133123556100940276 0
 100D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@babel\highlight\lib\index.js133123556101466684 0
 109D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\@babel\helper-validator-identifier\lib133123556102715778 1
@@ -4325,13 +4364,31 @@
 81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\acorn133123556113515504 0
 85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\acorn.cmd133123556113515504 0
 85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\acorn.ps1133123556113515504 0
+89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\ansi-html.cmd133123584802131826 0
+80D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\atob133123584802131826 0
+84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\atob.cmd133123584802131826 0
+84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\atob.ps1133123584802131826 0
 97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\browserslist-lint.cmd133123556113525919 0
 97D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\browserslist-lint.ps1133123556113525919 0
 87D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\detect-libc133123556113525919 0
 91D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\detect-libc.ps1133123556113525919 0
 103D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\download-msgpackr-prebuilds133123556113515504 0
 107D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\download-msgpackr-prebuilds.ps1133123556113515504 0
+89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\escodegen.cmd133123584802131826 0
+89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\escodegen.ps1133123584802131826 0
+90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\esgenerate.cmd133123584802131826 0
+87D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\esparse.cmd133123584802131826 0
+87D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\esparse.ps1133123584802131826 0
+90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\esvalidate.cmd133123584802131826 0
+90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\esvalidate.ps1133123584802131826 0
+89D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\is-docker.cmd133123584802131826 0
 81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\json5133123556113515504 0
+88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\miller-rabin133123584802131826 0
+92D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\miller-rabin.cmd133123584802131826 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\mkdirp.cmd133123584802131826 0
+82D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\nanoid133123584802131826 0
+79D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\ncp133123584802131826 0
+83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\ncp.ps1133123584802131826 0
 90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\node-gyp-build133123556113525919 0
 99D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\node-gyp-build-optional133123556113515504 0
 117D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\node-gyp-build-optional-packages-optional133123556113525919 0
@@ -4347,19 +4404,35 @@
 94D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\node-gyp-build.ps1133123556113525919 0
 86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\parcel.cmd133123556113525919 0
 86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\parcel.ps1133123556113525919 0
+82D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\parser133123584802131826 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\parser.ps1133123584802131826 0
+88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\purgecss.cmd133123584802131826 0
+88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\purgecss.ps1133123584802131826 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\rimraf.cmd133123584802131826 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\rimraf.ps1133123584802131826 0
 80D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sass133123556951590771 0
 84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sass.cmd133123556951590771 0
 84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sass.ps1133123556951590771 0
 82D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\semver133123556113525919 0
 86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\semver.ps1133123556113525919 0
+82D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sha.js133123584802131826 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sha.js.cmd133123584802131826 0
+86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sshpk-conv133123584802131826 0
+90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sshpk-conv.cmd133123584802131826 0
+90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sshpk-conv.ps1133123584802131826 0
+90D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sshpk-sign.ps1133123584802131826 0
+88D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\sshpk-verify133123584802131826 0
 84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\svgo.cmd133123556113525919 0
 82D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\terser133123556113525919 0
 86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\terser.cmd133123556113525919 0
 86D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\terser.ps1133123556113525919 0
-101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\19 Forkify Application.3464ddca.js.map133123567125515552 0
-83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\favicon.8b2f57bf.png133123567125341572 0
-81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\icons.21bad73c.svg133123567125341572 0
-80D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\index.62406edb.js133123581690146393 0
-81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\index.f7626f62.css133123567125341572 0
-85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\index.f7626f62.css.map133123567125388765 0
-80D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\logo.726d37a8.png133123567125356651 0
+85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\uncss.ps1133123584802131826 0
+84D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\uuid.ps1133123584802131826 0
+85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\node_modules\.bin\which.ps1133123584802131826 0
+101D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\19 Forkify Application.3464ddca.js.map133123631056410624 0
+83D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\favicon.8b2f57bf.png133123631056303302 0
+81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\icons.21bad73c.svg133123631056216766 0
+80D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\index.62406edb.js133123631862416031 0
+81D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\index.f7626f62.css133123631056216766 0
+85D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\index.f7626f62.css.map133123631056334482 0
+80D:\New Journey\Tutorial\JavaScript\19 Forkify Application\dist\logo.726d37a8.png133123631056303302 0

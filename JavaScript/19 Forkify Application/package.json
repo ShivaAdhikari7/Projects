@@ -9,6 +9,7 @@
   "author": "Shiva Adhikari",
   "license": "ISC",
   "dependencies": {
+    "fractional": "^1.0.0",
     "parcel": "^2.7.0",
     "sass": "^1.26.10"
   },
