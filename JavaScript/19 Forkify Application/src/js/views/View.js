@@ -23,6 +23,7 @@ export default class View {
     this._clear();
     this._parentElem.insertAdjacentHTML('afterbegin', markup);
   }
+
   addHandlerRender(handler) {
     window.addEventListener('load', handler);
     window.addEventListener('hashchange', handler);

@@ -7,6 +7,14 @@ class RecipeView extends View {
   _message = `Something went wrong. Please try again.`;
   _success = ``;
 
+  addHandlerUpdateServings(handler) {
+    this._parentElem.addEventListener('click', function (e) {
+      const btn = e.target.closest('.btn--tiny');
+      const { updateTo } = btn.dataset;
+      if (+updateTo > 0) handler(+updateTo);
+    });
+  }
+
   _generateMarkup() {
     return `  <figure class="recipe__fig">
                     <img src="${this._data.image}" alt="${
@@ -31,16 +39,22 @@ class RecipeView extends View {
                       <svg class="recipe__info-icon">
                         <use href="${icons}#icon-users"></use>
                       </svg>
-                      <span class="recipe__info-data recipe__info-data--people">4</span>
+                      <span class="recipe__info-data recipe__info-data--people">${
+                        this._data.servings
+                      }</span>
                       <span class="recipe__info-text">servings</span>
 
                       <div class="recipe__info-buttons">
-                        <button class="btn--tiny btn--increase-servings">
+                        <button data-update-to=${
+                          this._data.servings - 1
+                        } class="btn--tiny btn--update-servings">
                           <svg>
                             <use href="${icons}#icon-minus-circle"></use>
                           </svg>
                         </button>
-                        <button class="btn--tiny btn--increase-servings">
+                        <button  data-update-to=${
+                          this._data.servings + 1
+                        } class="btn--tiny btn--update-servings">
                           <svg>
                             <use href="${icons}#icon-plus-circle"></use>
                           </svg>
