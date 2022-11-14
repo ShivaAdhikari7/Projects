@@ -1,0 +1,1 @@
+All I read from another file is This is input text.
