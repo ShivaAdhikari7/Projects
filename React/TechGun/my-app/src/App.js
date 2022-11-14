@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Expense from "./components/Expenses/Expense.js";
 import NewExpense from "./components/NewExpense/NewExpense.js";
 
 const App = function () {
-  let expenses = [
+  let dummy_expenses = [
     {
       date: new Date(2021, 4, 28),
       title: "Car Insurance",
@@ -25,10 +25,13 @@ const App = function () {
       price: "700",
     },
   ];
-
+  const [expenses, setExpenses] = useState(dummy_expenses);
+  const addExpenseData = (expense) => {
+    setExpenses([...expenses, expense]);
+  };
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpenseData={addExpenseData} />
       <Expense item={expenses} />
     </div>
   );
