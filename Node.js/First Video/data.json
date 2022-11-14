@@ -1,0 +1,43 @@
+[
+  {
+    "id": "0",
+    "productName": "Fresh Avocardo",
+    "image": "🥑",
+    "nutrients": "Vitamin A, Vitamin C",
+    "quantity": "4 🥑",
+    "price": "6.50",
+    "organic": true,
+    "description": "This is the avocardo"
+  },
+
+  {
+    "id": "1",
+    "productName": "Goat and Sheep cheese",
+    "image": "🧀",
+    "nutrients": "Vitamin A, Calcium",
+    "quantity": "250g 🧀",
+    "price": "5.50",
+    "organic": false,
+    "description": "This is the cheese"
+  },
+  {
+    "id": "2",
+    "productName": "Brocoli",
+    "image": "🥦",
+    "nutrients": "Vitamin A, Vitamin C",
+    "quantity": "4 🥦",
+    "price": "7.50",
+    "organic": true,
+    "description": "This is brocoli"
+  },
+  {
+    "id": "3",
+    "productName": "Baby Carrots",
+    "image": "🥕",
+    "nutrients": "Vitamin A, Vitamin C",
+    "quantity": "4 🥕",
+    "price": "3.50",
+    "organic": false,
+    "description": "This is the carrot"
+  }
+]

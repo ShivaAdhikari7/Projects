@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "slugify": "^1.6.5"
+  },
+  "name": "01.node-fam",
+  "version": "1.0.0",
+  "description": "This is about the vegetables website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Shiva Adhikari",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
