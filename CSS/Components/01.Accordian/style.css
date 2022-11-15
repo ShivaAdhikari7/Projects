@@ -33,6 +33,7 @@ body {
   grid-template-columns: auto 1fr auto;
   column-gap: 20px;
   row-gap: 20px;
+  cursor: pointer;
 }
 .item-number {
   font-size: 20px;
