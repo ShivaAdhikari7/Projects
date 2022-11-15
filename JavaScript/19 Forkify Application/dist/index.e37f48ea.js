@@ -560,7 +560,7 @@ const controlRecipes = async function() {
         await _modelJs.loadRecipes(id);
         const { recipe  } = _modelJs.state;
         // Rendering Recipes:
-        (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
+        (0, _recipeViewJsDefault.default).render(recipe);
     } catch (err) {
         (0, _recipeViewJsDefault.default).renderError();
     }
