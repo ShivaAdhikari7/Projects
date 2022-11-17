@@ -591,9 +591,15 @@ const controlServings = function(newServings) {
     // recipeView.render(model.state.recipe);
     (0, _recipeViewJsDefault.default).update(_modelJs.state.recipe);
 };
+const controlAddBookMark = function() {
+    if (!_modelJs.state.recipe.bookmarked) _modelJs.addBookMark(_modelJs.state.recipe);
+    else _modelJs.deleteBook(_modelJs.state.recipe.id);
+    (0, _recipeViewJsDefault.default).update(_modelJs.state.recipe);
+};
 const init = function() {
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
     (0, _recipeViewJsDefault.default).addHandlerUpdateServings(controlServings);
+    (0, _recipeViewJsDefault.default).addHandlerAddBookMark(controlAddBookMark);
     (0, _searchViewJsDefault.default).addHandlerSearch(controlSearchRecipes);
     (0, _paginationViewJsDefault.default).addhandlerClick(controlPagination);
 };
@@ -1733,6 +1739,8 @@ parcelHelpers.export(exports, "loadRecipes", ()=>loadRecipes);
 parcelHelpers.export(exports, "getSearchResults", ()=>getSearchResults);
 parcelHelpers.export(exports, "getResultPerPage", ()=>getResultPerPage);
 parcelHelpers.export(exports, "updateServings", ()=>updateServings);
+parcelHelpers.export(exports, "addBookMark", ()=>addBookMark);
+parcelHelpers.export(exports, "deleteBook", ()=>deleteBook);
 var _configJs = require("./config.js");
 var _helperJs = require("./helper.js");
 const state = {
@@ -1742,7 +1750,8 @@ const state = {
         results: [],
         page: 1,
         resultPerPage: (0, _configJs.RES_PER_PAGE)
-    }
+    },
+    bookmarks: []
 };
 const loadRecipes = async function(id) {
     try {
@@ -1758,6 +1767,8 @@ const loadRecipes = async function(id) {
             ingredients: recipe.ingredients,
             servings: recipe.servings
         };
+        if (state.bookmarks.some((bookmark)=>bookmark.id === id)) state.recipe.bookmarked = true;
+        else state.recipe.bookmarked = false;
     } catch (err) {
         throw err;
     }
@@ -1792,6 +1803,15 @@ const updateServings = function(newServings) {
         ing.quantity = ing.quantity * newServings / state.recipe.servings;
     });
     state.recipe.servings = newServings;
+};
+const addBookMark = function(recipe) {
+    state.bookmarks.push(recipe);
+    if (state.recipe.id === recipe.id) state.recipe.bookmarked = true;
+};
+const deleteBook = function(id) {
+    const index = state.bookmarks.findIndex((el)=>el.id === id);
+    state.bookmarks.splice(index, 1);
+    if (id === state.recipe.id) state.recipe.bookmarked = false;
 };
 
 },{"./config.js":"k5Hzs","./helper.js":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k5Hzs":[function(require,module,exports) {
@@ -1879,6 +1899,13 @@ class RecipeView extends (0, _viewJsDefault.default) {
             if (+updateTo > 0) handler(+updateTo);
         });
     }
+    addHandlerAddBookMark(handler) {
+        this._parentElem.addEventListener("click", function(e) {
+            const btn = e.target.closest(".btn-bookmarked");
+            if (!btn) return;
+            handler();
+        });
+    }
     _generateMarkup() {
         return `  <figure class="recipe__fig">
                     <img src="${this._data.image}" alt="${this._data.title}" class="recipe__img" />
@@ -1921,9 +1948,9 @@ class RecipeView extends (0, _viewJsDefault.default) {
                         <use href="${0, _iconsSvgDefault.default}#icon-user"></use>
                       </svg>
                     </div>
-                    <button class="btn--round">
+                    <button class="btn--round btn-bookmarked">
                       <svg class="">
-                        <use href="${0, _iconsSvgDefault.default}#icon-bookmark-fill"></use>
+                        <use href="${0, _iconsSvgDefault.default}#icon-bookmark${this._data.bookmarked ? "-fill" : ""}"></use>
                       </svg>
                     </button>
                     </div>
@@ -1984,7 +2011,6 @@ class View {
         this._parentElem.insertAdjacentHTML("afterbegin", markup);
     }
     update(data) {
-        if (!data || Array.isArray(data) && data.length === 0) return this.renderError();
         this._data = data;
         const newMarkup = this._generateMarkup();
         const newDOM = document.createRange().createContextualFragment(newMarkup);
