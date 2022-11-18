@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require("express");
 
 const router = express.Router();
 
@@ -8,13 +8,11 @@ const {
   createTour,
   deleteTour,
   updateTour,
-  checkID,
-  checkBody,
-} = require('../controllers/tourControllers');
+  getFilteredTours,
+} = require("../controllers/tourControllers");
 
-router.param('id', checkID);
-router.route('/').get(getAllTours).post(checkBody, createTour);
+router.route("/").get(getAllTours).post(createTour);
 
-router.route('/:id').get(getTour).patch(updateTour).delete(deleteTour);
+router.route("/:id").get(getTour).patch(updateTour).delete(deleteTour);
 
 module.exports = router;
